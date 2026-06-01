@@ -111,18 +111,21 @@ class RegistrationServiceController extends Controller
         $model = null;
         $archMonth = "";
         $vehicleKms = array("kmsForYear" => "");
-        //if archive month/year is selected.
+        // Always resolve lookups against the latest import.
         $import = Import::getLastImportData();
-        if (isset($_POST['arch']) && $_POST['arch'] != '') {
-            if ($_POST['arch'] == $import->id) {
-                $archcheck = '';
-            } else {
-                $archcheck = $_POST['arch'];
-            }
-        } else {
-            $archcheck = $import->id;
+        if (empty($import) || empty($import->id)) {
+            Yii::log('No import data found while processing mobile reg lookup', CLogger::LEVEL_ERROR, 'application');
+            Yii::app()->user->setFlash('errorMsg', 'No import data available.');
+            echo $this->gNoRegFoundHTML($_POST['VehicleRegNumber']);
+            exit;
         }
-        $arch = ($_POST['arch']) ? $_POST['arch'] : $import->id;
+        $latestImportId = (int) $import->id;
+        $requestedArch = (isset($_POST['arch']) && $_POST['arch'] !== '') ? (int) $_POST['arch'] : 0;
+        if (!empty($requestedArch) && $requestedArch !== $latestImportId) {
+            Yii::log('Ignoring requested archive import ' . $requestedArch . ' and using latest import ' . $latestImportId, CLogger::LEVEL_WARNING, 'application');
+        }
+        $archcheck = $latestImportId;
+        $arch = $latestImportId;
 
         $_POST['VehicleRegNumber'] = str_replace(' ', '', $_POST['VehicleRegNumber']);
 
