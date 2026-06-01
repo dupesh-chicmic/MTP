@@ -1609,8 +1609,30 @@ class RegistrationService
             }
 
             if (empty($bestCarId)) {
-                $arrVal = array_keys($results);
-                $bestCarId = array_shift($arrVal);
+                // original fallback (kept commented for reference)
+                // $arrVal = array_keys($results);
+                // $bestCarId = array_shift($arrVal);
+
+                // Prefer using the model id passed in params when available.
+                // If a used_*_model row exists that matches both the passed model id
+                // and the model codenumber, prefer that DB row's id as bestCarId.
+                if (!empty($params['model']) && is_object($params['model']) && isset($params['model']->id)) {
+                    $bestCarId = $params['model']->id;
+                    if (!empty($params['model']->codenumber)) {
+                        // try to find a matching used car model row (cars and commercial tables)
+                        $found = UsedCarsModel::model()->find('id_used_cars=:id AND codenumber=:code ORDER BY id DESC', array(':id' => $params['model']->id, ':code' => $params['model']->codenumber));
+                        if (empty($found)) {
+                            $found = UsedComCarsModel::model()->find('id_used_com_cars=:id AND codenumber=:code ORDER BY id DESC', array(':id' => $params['model']->id, ':code' => $params['model']->codenumber));
+                        }
+                        if (!empty($found) && isset($found->id)) {
+                            $bestCarId = $found->id;
+                        }
+                    }
+                } else {
+                    // fallback to original behaviour if params['model']->id isn't available
+                    $arrVal = array_keys($results);
+                    $bestCarId = array_shift($arrVal);
+                }
             }
             //$bestCarId=779373;
             $car = UsedComCarsModel::model()->findByPk($bestCarId);
