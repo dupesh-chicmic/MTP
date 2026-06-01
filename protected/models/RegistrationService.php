@@ -1266,13 +1266,17 @@ class RegistrationService
         if ($skipCalc)
             return array();
 
-        foreach ($coreWithAssociatedCarsModel as $item) {
-            if (empty($arch)) {
-                $import = Import::getLastImportData();
-            } else {
-                $import = Import::model()->with('usedCars')->find('t.id=' . $arch);
-            }
+        if (empty($arch)) {
+            $import = Import::getLastImportData();
+        } else {
+            $import = Import::model()->with('usedCars')->find('t.id=' . $arch);
+        }
 
+        if (empty($import) || empty($import->id)) {
+            return array();
+        }
+
+        foreach ($coreWithAssociatedCarsModel as $item) {
             $data = array(
                 "km" => $userGuideKm,
                 "year" => $vehicleYear,

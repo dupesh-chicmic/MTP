@@ -140,20 +140,33 @@ class XmlDieselBandsModel extends CActiveRecord
             if(empty($guideKm) || $guideKm == ''){
                         return 'We are not able to provide evaluation for empty km values.';
             }
+
+            static $bandsCache = array();
+            static $kmsBandsCache = array();
+            static $adjustmentBandsCache = array();
             
             if($userKm >= $guideKm){
                 //echo '<br>UP';
-                $data = XmlDieselBandsUpModel::model()->findAll(array(
-                    'condition'=>'id_import=:idImport',
-                    'params'=>array(':idImport'=>$import_id)                        
-                ));                
+                $bandsCacheKey = 'up:' . (int) $import_id;
             }else{
                 //echo '<br>DOWN';
-                $data = XmlDieselBandsModel::model()->findAll(array(
-                    'condition'=>'id_import=:idImport',
-                    'params'=>array(':idImport'=>$import_id)                        
-                ));
+                $bandsCacheKey = 'down:' . (int) $import_id;
             }
+
+            if (!isset($bandsCache[$bandsCacheKey])) {
+                if($userKm >= $guideKm){
+                    $bandsCache[$bandsCacheKey] = XmlDieselBandsUpModel::model()->findAll(array(
+                        'condition'=>'id_import=:idImport',
+                        'params'=>array(':idImport'=>$import_id)                        
+                    ));                
+                }else{
+                    $bandsCache[$bandsCacheKey] = XmlDieselBandsModel::model()->findAll(array(
+                        'condition'=>'id_import=:idImport',
+                        'params'=>array(':idImport'=>$import_id)                        
+                    ));
+                }
+            }
+            $data = $bandsCache[$bandsCacheKey];
             
                     $kaskaZPrzedzialu_rangeValue = null;
                     $rokIdAbyPobracKaskeZPrzedzialu = null;
@@ -162,7 +175,10 @@ class XmlDieselBandsModel extends CActiveRecord
                     $final_calc = null;
 
                     //kmsBands
-                    $kms = XmlKmsBandsModel::model()->getKmsBands($import_id);
+                    if (!isset($kmsBandsCache[(int) $import_id])) {
+                        $kmsBandsCache[(int) $import_id] = XmlKmsBandsModel::model()->getKmsBands($import_id);
+                    }
+                    $kms = $kmsBandsCache[(int) $import_id];
                     foreach($kms as $bands){
                         if($bands['year'] == $userYear){
                             //echo '<br>Year'.$userYear;
@@ -200,7 +216,10 @@ class XmlDieselBandsModel extends CActiveRecord
                            // echo 'wicej';
                             $final_user_km = $userKm - $guideKm;
                             //echo '<br>Userkms:'.$userKm.' gudeKms:'.$guideKm;
-                            $adjustmentKms = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBandsU.xml');
+                            if (!isset($adjustmentBandsCache['KmsAdjustmentBandsU.xml'])) {
+                                $adjustmentBandsCache['KmsAdjustmentBandsU.xml'] = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBandsU.xml');
+                            }
+                            $adjustmentKms = $adjustmentBandsCache['KmsAdjustmentBandsU.xml'];
                             $valueChanged = XmlPetrolBandsModel::getKmsAdjustmentValue($kaskaZPrzedzialu_rangeValue,$adjustmentKms,$final_user_km);
                             
                             //echo '<br>Value Changed:'.$valueChanged.'ORIGVal:'.$guideCorrespondingRange;
@@ -213,7 +232,10 @@ class XmlDieselBandsModel extends CActiveRecord
                             $final_user_km = $guideKm - $userKm;
                             //echo '<br>Userkms:'.$userKm.' gudeKms:'.$guideKm;
                             
-                            $adjustmentKms = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBands.xml');
+                            if (!isset($adjustmentBandsCache['KmsAdjustmentBands.xml'])) {
+                                $adjustmentBandsCache['KmsAdjustmentBands.xml'] = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBands.xml');
+                            }
+                            $adjustmentKms = $adjustmentBandsCache['KmsAdjustmentBands.xml'];
                             $valueChanged = XmlPetrolBandsModel::getKmsAdjustmentValue($kaskaZPrzedzialu_rangeValue,$adjustmentKms,$final_user_km);
                             
                             //echo '<br>Value Changed:'.$valueChanged.'ORIGVal:'.$guideCorrespondingRange;

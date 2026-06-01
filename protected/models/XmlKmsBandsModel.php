@@ -114,10 +114,17 @@ class XmlKmsBandsModel extends CActiveRecord
             //$make_file = './qBixSoft/KmsBands.xml';
             //$file = file_get_contents($make_file);
             //return $kmSData = simplexml_load_string(html_entity_decode($file), 'SimpleXMLElement', LIBXML_NOCDATA);
-            return $kms = XmlKmsBandsModel::model()->findAll(array(
+            static $cache = array();
+            $importIdKey = (int) $import_id;
+            if (isset($cache[$importIdKey])) {
+                return $cache[$importIdKey];
+            }
+            $kms = XmlKmsBandsModel::model()->findAll(array(
                 'condition'=>'id_import=:idImport',
                 'params'=>array(':idImport'=>$import_id)
             ));
+            $cache[$importIdKey] = $kms;
+            return $kms;
         }
         
         //import/export KmsBands

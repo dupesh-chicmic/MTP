@@ -173,45 +173,70 @@ class XmlElectricBandsModel extends CActiveRecord
                     $przejechalWiecejMniej = null; // wiecej=true / mniej=false
                     $guideCorrespondingRange = null;
                     $final_calc = null;
+
                     //kmsBands
                     $kms = XmlKmsBandsModel::model()->getKmsBands($import_id);
                     foreach($kms as $bands){
                         if($bands['year'] == $userYear){
                             // pobierz km dla tego rocznika
-							if($userKm >= $guideKm){ // PRZELICZANIE ZNAK + / - WAZNE 
-								//przjechal wiecej niz przewodniku !                                          
-								$przejechalWiecejMniej = true;
-								$rokIdAbyPobracKaskeZPrzedzialu = $bands['yrID'];
-							}else{
-								//przjechal mniej niz przewodniku !
-								$przejechalWiecejMniej = false;
-								$rokIdAbyPobracKaskeZPrzedzialu = $bands['yrID'];
-							}
+
+                     
+
+                                if($userKm >= $guideKm){ // PRZELICZANIE ZNAK + / - WAZNE 
+                                    //przjechal wiecej niz przewodniku !                                          
+                                    $przejechalWiecejMniej = true;
+                                    $rokIdAbyPobracKaskeZPrzedzialu = $bands['yrID'];
+                                }else{
+                                    //przjechal mniej niz przewodniku !
+                                    $przejechalWiecejMniej = false;
+                                    $rokIdAbyPobracKaskeZPrzedzialu = $bands['yrID'];
+                                }
+
+                                    
+                            
                         }
+
                     } // end foreach
     
 
-					foreach($data as $money){
-						if( ($userGuide >= $money['fromXml']) && ($userGuide <= $money['toXml']) ){
-							$guideCorrespondingRange = $userGuide;
-							$kaskaZPrzedzialu_rangeValue = $money[$rokIdAbyPobracKaskeZPrzedzialu];
-						}
-					}       
+                        foreach($data as $money){
+                            if( ($userGuide >= $money['fromXml']) && ($userGuide <= $money['toXml']) ){
+                                $guideCorrespondingRange = $userGuide;
+                                $kaskaZPrzedzialu_rangeValue = $money[$rokIdAbyPobracKaskeZPrzedzialu];
+                            }
+                        }       
 
-					if($przejechalWiecejMniej){
-						//wiecej
-						$final_user_km = $userKm - $guideKm;
-						$adjustmentKms = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBandsU.xml');
-						$valueChanged = XmlPetrolBandsModel::getKmsAdjustmentValue($kaskaZPrzedzialu_rangeValue,$adjustmentKms,$final_user_km);
-						$final_calc = $guideCorrespondingRange - $valueChanged;
-					}else{
-						//mniej
-						$final_user_km = $guideKm - $userKm;
-						$adjustmentKms = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBands.xml');
-						$valueChanged = XmlPetrolBandsModel::getKmsAdjustmentValue($kaskaZPrzedzialu_rangeValue,$adjustmentKms,$final_user_km);
-						$final_calc = $guideCorrespondingRange + $valueChanged;
-					}
-			return '€'.XmlPetrolBandsModel::roundUpTo50($final_calc);
+                        if($przejechalWiecejMniej){
+                            //wiecej
+							$final_user_km = $userKm - $guideKm;
+							if(Yii::app()->params['website_type']==Yii::app()->params['website']['API']){}else{
+								echo '<br>Userkms:'.$userKm.' gudeKms:'.$guideKm;
+							}
+                            
+                            $adjustmentKms = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBandsU.xml');
+                            $valueChanged = XmlPetrolBandsModel::getKmsAdjustmentValue($kaskaZPrzedzialu_rangeValue,$adjustmentKms,$final_user_km);
+                            if(Yii::app()->params['website_type']==Yii::app()->params['website']['API']){}else{
+							echo '<br>Value Changed:'.$valueChanged.'ORIGVal:'.$guideCorrespondingRange;
+							}
+                            //$my_calc = ($final_user_km / XmlPetrolBandsModel::model()->getRange())*$kaskaZPrzedzialu_rangeValue;
+                            $final_calc = $guideCorrespondingRange - $valueChanged;
+
+                        }else{
+                            //mniej
+							$final_user_km = $guideKm - $userKm;
+							if(Yii::app()->params['website_type']==Yii::app()->params['website']['API']){}else{
+							echo '<br>Userkms:'.$userKm.' gudeKms:'.$guideKm;
+							}
+                            
+                            $adjustmentKms = XmlPetrolBandsModel::getKmsAdjustmentBands('KmsAdjustmentBands.xml');
+                            $valueChanged = XmlPetrolBandsModel::getKmsAdjustmentValue($kaskaZPrzedzialu_rangeValue,$adjustmentKms,$final_user_km);
+                            if(Yii::app()->params['website_type']==Yii::app()->params['website']['API']){}else{
+							echo '<br>Value Changed:'.$valueChanged.'ORIGVal:'.$guideCorrespondingRange;
+							}
+                            //$my_calc = ($final_user_km / XmlPetrolBandsModel::model()->getRange())*$kaskaZPrzedzialu_rangeValue;
+                            $final_calc = $guideCorrespondingRange + $valueChanged;
+                        }
+                        return '€'.XmlPetrolBandsModel::roundUpTo50($final_calc);
             //end - can count     
-        }
+        }     
 }
