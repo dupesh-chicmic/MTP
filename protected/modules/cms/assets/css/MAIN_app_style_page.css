@@ -1,0 +1,194 @@
+﻿
+	@charset "utf-8";
+	/* CSS Document */
+	
+	body {
+		margin: 0; padding: 0;
+		font-family: Arial, Tahoma;
+		background: #eaeaea;
+		color: #383838;
+	}
+	a { color: #d91d1d; text-decoration: none; cursor: pointer; }
+	a:hover { text-decoration: none; }
+	
+	div, a, form {
+		overflow: visible;
+		margin: 0; padding: 0;
+	}
+	
+	img { border: 0; }
+
+
+
+
+	/*	---------------------- 
+	*	Konstrukcja strony */
+	
+	.page { width: 100%; background: url(../images/page/bg.png) repeat-x top left; }
+
+	.page .header, .page .banner, .page .content, .page .footer {
+		clear: left; margin: auto; overflow: hidden;
+	}
+
+	.page .header		{ width: 960px; height: 99px; }
+	.page .banner		{ width: 960px; height: 114px; }
+	.page .content		{ width: 960px; }
+	.page .footer		{ width: 960px; }
+
+	/*	Konstrukcja END 
+	*	---------------------- */
+
+
+
+
+	/*	---------------------- 
+	*	Nagłówek */
+
+	.header div					{ float: left; display: inline; }
+	.header .logo				{ width: 99px; height: 60px; margin: 20px 0 0 20px; background: url(../images/logo.png) no-repeat top left; }
+	.header .menu				{ width: 500px; text-align: left; font-size: 14px; margin-top: 60px; margin-left: 20px; border-left: 1px solid #dddddd; line-height: 26px; }
+	.header .menu a				{ color: #383838; margin-left: 20px; }
+	.header .search				{ float: right; display: inline; width: 170px; margin-right: 10px; margin-top: 58px; }
+	.header .search div.input	{ float: left; display: inline; width: 130px; height: 26px; background: url(../images/form_input_search.png) no-repeat; }
+	.header .search input.input	{ width: 120px; border: 0; background: none; padding: 7px 2px 4px 6px; font-size: 11px; color: #969696; }
+	.header .search div.button	{ float: left; display: inline; width: 38px; height: 26px; background: url(../images/btn_search.png) no-repeat; }
+
+        .header .menu ul { margin: 0px; padding: 0px;}
+        .header .menu ul li { display: inline; }        
+	/*	Nagłówek END 
+	*	---------------------- */
+
+
+
+
+	/*	---------------------- 
+	*	banner */
+
+	.banner .banner_main .down	{ clear: left; width: auto; height: 70px; margin: 0 0 0 10px; }
+	
+	.banner_main .down a		{ float: left; display: inline; width: 180px; height: 44px; font-size: 12px; color: #cccccc; margin: 15px 0 0 20px; font-style: italic; }
+	.banner_main .down a.strony { background: url(../images/ico_strony.png) no-repeat top left; }
+	.banner_main .down a.sklepy { background: url(../images/ico_sklepy.png) no-repeat top left; }
+	.banner_main .down a.apps	{ background: url(../images/ico_aplikacje.png) no-repeat top left; }
+	.banner_main .down a div	{ margin-left: 44px; margin-top: 3px; }
+	
+	.banner .path				{ clear: left; width: 570px; margin: 17px 0 0 20px; font-size: 11px; color: #383838; }
+	.banner .box				{ position: absolute; z-index: 1000; margin: 125px 0 0 625px; width: 328px; height: 168px; background: url(../images/bg_box.png) no-repeat top left; }
+	.banner .box a				{ float: left; margin: 24px 0 0 24px; color: #ffffff; font-weight: bold; font-size: 18px; }
+	.banner .box a span			{ font-weight: normal; font-size: 10px; font-style: italic; }
+	.banner .box a.tag			{ float: right; margin: 24px 24px 0 0; color: #d91d1d; font-weight: normal; font-size: 10px; padding: 0 5px; background: #eaeaea; }
+	.banner .box .tresc			{ float: left; clear: both; width: 280px; margin: 10px 0 0 24px; padding-top: 10px; border-top: 1px solid #ec5a5a; font-size: 11px; color: #eaeaea; }
+	.banner .box .tresc img		{ float: left; margin-right: 10px; }
+
+	/*	Banner END 
+	*	---------------------- */
+
+
+
+	/*	---------------------- 
+	*	Tresc */
+
+	.content .top						{ height: 10px; background: url(../images/bg_page_top.png) no-repeat; }
+	.content .tresc						{ background: #ffffff; padding-bottom: 30px; min-height: 200px;}
+	.content .tresc	.txt				{  clear: left; width: 600px; margin-left: 20px; }
+	.content .tresc	.txt .line			{ float: left; clear: left; font-size: 1px; height: 1px; width: 200px; background: #dddddd; margin: 0 0 10px 0; }
+	.content .tresc	.txt p.main_title	{            
+            clear: left;
+            color: #D91D1D;
+            float: left;
+            font-size: 19px;
+            font-weight: bold;
+            margin: 5px 0;
+            width: 580px;
+        }
+        .content .tresc	.txt p.main_title span	{ font-size:14px; }
+	.content .tresc	.txt p.title		{ float: left; clear: left; font-size: 14px; font-weight: bold; color: #d91d1d; width: 580px; margin: 5px 0 5px 0; }
+	.content .tresc	.txt p				{ float: left; clear: left; font-size: 12px; line-height: 15px; margin: 5px 0 10px 0; color: #383838; width: 580px; }
+	.content .bottom					{ height: 10px; background: url(../images/bg_page_bottom.png) no-repeat; margin: 0; }
+	
+	.content .right						{ position: absolute; margin: -80px 0 0 630px; z-index: 1000; padding-bottom: 20px; background: #383838 url(../images/page/bg_page_right_bottom.png) no-repeat bottom; }
+	.content .right .right_tresc		{ float: left; width: 280px; margin: 0 20px 0 20px; background: #383838; }
+	.content .right .box				{ float: left; clear: left; width: 308px; margin: 0 0 0 6px; background: url(../images/page/bg_page_box_middle.png) repeat-y top; font-size: 11px; }
+	.content .right .box .box_top		{ float: left; clear: left; width: 308px; background: url(../images/page/bg_page_box_top.png) no-repeat top; }
+	.content .right .box .box_top p	 	{ float: left; margin: 20px 20px; margin-bottom: 0; }
+	.content .right .box .box_top p a	{ float: left; clear: left; width: 260px; line-height: 28px; border-top: 1px solid #ec5a5a; color: #ffffff; }
+	.content .right .box .box_down		{ float: left; clear: left; width: 308px; height: 20px; background: url(../images/page/bg_page_box_bottom.png) no-repeat top; }
+	.content .right .box a				{ color: #ffffff; }
+	
+	.right .box_rest					{ float: left; clear: left; margin: 20px 0 0 20px; width: 280px; }
+	.right .box_rest a					{ float: left; color: #ffffff; font-weight: bold; font-size: 18px; }
+	.right .box_rest a span				{ font-weight: normal; font-size: 10px; font-style: italic; }
+	.right .box_rest a.tag				{ float: right; color: #d91d1d; font-weight: normal; font-size: 10px; padding: 0 5px; background: #eaeaea; }
+	.right .box_rest .box_tresc			{ float: left; clear: both; width: 280px; margin: 10px 0 0 00; padding-top: 10px; border-top: 1px solid #282828; font-size: 11px; color: #eaeaea; }
+	.right .box_rest .box_tresc img		{ float: left; margin-right: 10px; }
+
+        
+        .txt .text_essential {
+    clear: left;
+    color: #383838;
+
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 10px;
+    text-align: justify;
+    width: 570px;        
+        }
+
+        
+.content .box_rest .col {
+    /*display: inline;*/
+    font-size: 12px;
+    border-top: 1px solid #888888;padding:7px 0px;
+}
+.content .box_rest .col .date {
+    color: #FFFFFF;
+    font-size: 11px;
+    height: 19px;
+    line-height: 19px;
+    width: 140px;
+}
+.content .box_rest .col .title a{
+    color: #D91D1D;
+    font-weight: bold;
+    width:305px;
+}
+.content .right .box_rest .col .trescFEAT {
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.content .right .box_rest .col .trescFEAT a{
+    color: #D91D1D;
+    float: inherit;
+    font-size: 11px;  
+}
+	/*	Tresc END 
+	*	---------------------- */
+
+
+
+
+	/*	---------------------- 
+	*	Stopka */
+
+	.footer						{ padding: 10px; font-size: 11px; line-height: 26px; }
+	.footer .menu				{ float: left; display: inline; text-transform: uppercase; padding-right: 20px; margin-right: 20px; border-right: 1px solid #dddddd; }
+	.footer .menu a				{ float: left; margin-left: 20px; color: #383838; font-size: 10px; }
+	.footer .copy				{ float: left; display: inline; }
+
+        .footer .menu ul { margin: 0px; padding: 0px;}
+        .footer .menu ul li { display: inline; }        
+                
+	/*	Stopka END 
+	*	---------------------- */
+        
+        
+        .gallery_row { margin-left:5px; height: 120px; background-color: #ddd; display:inline-block; width: 150px; /*height:100px;*/ padding:10px 5px; text-align:center; border:3px #AAAAAA solid; }
+        .gallery_row img { max-width: 150px; max-height:100px; }
+        .gallery_row .cutImage a { display: block; width: 143px; height: 120px; }
+        .gallery_row .cutImage { height:120px; width:146px; margin: 2px;} 
+
+        .mapa_layout {overflow: visible; display: inline-block; }
+        
+#languageMenu {display: inline-block; vertical-align: top; margin-top: 40px; text-align: right; float: right; margin-right:10px; }
+#languageMenu li {display: inline; font-size: 11px; word-spacing: 2px; margin-left: 9px; color: #383838; font-weight: bold; font-size: 12px;}                

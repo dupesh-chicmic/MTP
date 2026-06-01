@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>680</man>
+    <cell>Partner 1.6 HDi 75 Access</cell>
+    <cell>Van 625kg</cell>
+    <cell>15395</cell>
+    <cell />
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Partner 1.6 HDi 75 Access</cell>
+    <cell>Van 625kg Sl. Door</cell>
+    <cell>15795</cell>
+    <cell />
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Partner 1.6 HDi 75 Active3S</cell>
+    <cell>Van 625kg Sl. Door</cell>
+    <cell>16295</cell>
+    <cell />
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Partner 1.6 HDi 90 Active3S</cell>
+    <cell>Van 850 Kg</cell>
+    <cell>16995</cell>
+    <cell />
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Partner 1.6 HDi 90 Act.3S A/T</cell>
+    <cell>Van 850 Kg</cell>
+    <cell>17895</cell>
+    <cell />
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Partner 1.6 HDi 90 Access</cell>
+    <cell>Van LWB 750kg</cell>
+    <cell>17695</cell>
+    <cell />
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Expert 227 1.6 HDi 90 L1H1</cell>
+    <cell>Van 1000kg</cell>
+    <cell>22930</cell>
+    <cell>2661</cell>
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Expert 229 2.0 HDi 128 L1H1</cell>
+    <cell>Van 1200kg</cell>
+    <cell>24765</cell>
+    <cell>2861</cell>
+    <cell>1997</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Expert 229 2.0 HDi 128 L2H1</cell>
+    <cell>Van 1200kg</cell>
+    <cell>25130</cell>
+    <cell>2932</cell>
+    <cell>1997</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Boxer 330 2.2 HDi L1H1 Eur5</cell>
+    <cell>Van SWB 1155kg</cell>
+    <cell>25145</cell>
+    <cell>3000</cell>
+    <cell>2198</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Boxer 333 2.2 HDi L3H3 Eur5</cell>
+    <cell>Van LWB 1325kg</cell>
+    <cell>29465</cell>
+    <cell>3300</cell>
+    <cell>2198</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>680</man>
+    <cell>Boxer 335 2.2 HDi L3H2 Eur5</cell>
+    <cell>Van LWB 1525kg</cell>
+    <cell>30335</cell>
+    <cell>3500</cell>
+    <cell>2198</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+</rows>

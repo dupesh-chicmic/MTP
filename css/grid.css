@@ -1,0 +1,15 @@
+table.items .fontColor {color: #3e8d9e;}
+
+/** Tabela na stronie Services **/
+.servicesTable {clear: both;}
+.servicesTable table.items thead th {background-color: #e8eae5; height: 40px;}
+.servicesTable table.items tr {border-top: #e8eae5 1px solid; vertical-align: middle; height: 35px; }
+/*.servicesTable table.items #yw0_c0 {width: 150px; color: #8fc9d5; font-weight: normal;}*/
+
+/** Tabela w CarGuide **/
+.carTable {width: 700px;}
+table.items td, table.items th { padding: 0 10px;}
+.carTable table.items thead th {background-color: #e8eae5;}
+.carTable table.items tr { height: 30px; background-color: #f6f6f6; border-top: 1px solid #d2d4d3;}
+.carTable table.items thead tr {border: none;}
+

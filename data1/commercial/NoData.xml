@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="625" type="ro" align="center" color="white" sort="str">No C02 emission table has been received as yet</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <cell></cell>
+  </row>
+</rows>

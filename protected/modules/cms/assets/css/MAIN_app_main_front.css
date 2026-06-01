@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+div {/*overflow: hidden;*/ margin: 0; padding: 0;}
+a {text-decoration: none; color: #000000;}
+a:focus {outline: none;}
+a:hover { color: #F5821F; }
+ul{padding: 0px; margin: 0;}
+/*div input {display:inline; *+float:left;}*/
+img {border: 0px;}
+button {border: 0px; background: none; cursor: pointer;}
+.siteWidth { width: 980px; margin: 0 auto; }
+.siteFont{font-weight: bold;}
+
+.backgroundMenuYellowLight {background-color: #ffd200; padding-right:5px;}
+.menuHeight {height: 102px; /*314px;*/ }
+.mainBackgroundImage {  background-image: url(../images/background.png); background-repeat: no-repeat; background-position: 0 127px;}
+
+body {margin: 0 0; padding: 0; font-family: Courier New; font-size: 16px; /*background-color: #b0b1b2;*/ background-color: white; *+text-align:center; }
+
+#wholeSite {padding: 0; position: relative; background-color: #FFFFFF; *+text-align:left; }
+.blackContent { min-height: 300px; background-color: #373737; width: 740px; display: inline-block; margin-top: 20px; margin-left: 40px; overflow: visible; }
+.backgroundTypewriter { min-height: 400px; background-image: url(../images/typewriter.png); width: 940px; background-repeat: no-repeat; background-position: 100% -20px;}
+
+#header {/*padding-top: 50px;*/}
+#header .logo {padding: 7px 10px 0px 10px; margin-left:37px;}
+#header .logo img{padding: 0px; }
+#header .stripe2, #header .stripe3 {margin-top: 10px;}
+#header .stripe1 .line1 {background-color: #929295; height: 1px; }
+#header .stripe1 .line2 {background-color: #b0b1b2; height: 1px; }
+#header .stripe2 .line3 {background-color: #bcbcbe; height: 1px; }
+#header .stripe2 .line4 {background-color: #6d6e71; height: 1px; }
+#header .stripe3 .line5 {background-color: #abacad; height: 1px; }
+#header .stripe3 .line6 {background-color: #8c8c8f; height: 1px; }
+#header .menu { width: 100%; display: inline-block; vertical-align: top; *+float:left;}
+#header .menu li ul li {clear: left;}
+#header .menu a {color: #FFFFFF;  font-size: 16px; }
+#header .menu li {display: inline;  word-spacing: 2px; vertical-align: top; float: left; *+float: left; *+margin-top: -8px;}
+#header .menu ul { *+padding-bottom: 8px; *+padding-top: 5px; }
+#header .menu ul li div { display: inline-block; }
+#header .menu .backgroundMenuYellowLight { /*width: 85px;*/ height: /*4*/23px; display: inline-block; margin-top: -4px; margin-left: 2px; padding-top: 10px; *+float: left;}
+#header .menu .backgroundMenuYellowLight .facebook {margin-left: 25px; margin-top: 3px;}
+#header .menu .backgroundMenuYellow {padding-top: 10px; padding-left: 5px; padding-right: 5px; height: 20px; background-color: #ffc000;}
+#header .menu .backgroundMenuYellow li a { margin-left: 16px; color: #000000;}
+#header .menu .backgroundMenuYellow ul { z-index: 0; margin-top: -31px; padding-top: 70px; margin-left:-3px; width: 100px; }
+
+#header .menu .backgroundMenuYellow .blackBackground a {color: #FFFFFF; margin-left:90px; /*70*/ }
+#header .menu .backgroundMenuYellow .blackBackground {background-color: #000000; width: 348px; margin-top: 3px; line-height: 15px; margin-left: -70px;}
+#header .menu .backgroundMenuOrange {background-color: #f5821f; margin-top: -4px; padding-left: 5px; padding-right: 5px; padding-top: 10px; height: 20px;}
+#header .menu .backgroundMenuRed {background-color: #ff4800; margin-top: -4px; padding-left: 3px; padding-right: 3px; padding-top: 10px; height: 20px; }
+.clip { vertical-align: top; margin-top: -13px; }
+.clip_right {margin-left:9px; vertical-align: top; margin-top: -13px; }
+
+#mainMenu {margin-left: 30px; font-weight: bold;}
+#mainMenu li {position: relative;}
+#mainMenu li div {padding-left: 3px; padding-top: 3px; }
+
+#mainMenu #menuCennikTrigger #cennikMenuElement { position:relative; z-index:4; width: 117px; height: 48px; background-image: url(../images/shadow_cennik.png); background-repeat: no-repeat; background-position: -2px -7px;}
+#mainMenu #menuPrzygotowanieTrigger #przygotowanieMenuElement { width: 230px; height: 51px; background-image: url(../images/shadow_przygotowanie.png); background-repeat: no-repeat; background-position: -4px -7px;}
+#mainMenu #menuJakWyslacTrigger #jakWyslacMenuElement { width: 148px; height: 51px; background-image: url(../images/shadow_jakwyslac.png); background-repeat: no-repeat; background-position: -8px -7px;}
+#mainMenu #menuJakWyslacTrigger #jakWyslacMenuElement .backgroundMenuOrange {margin-left: -12px;}
+#mainMenu #menuONasTrigger #oNasMenuElement { width: 100px; height: 50px; background-image: url(../images/shadow_onas.png); background-repeat: no-repeat; background-position: 1px -7px;}
+#mainMenu #menuKontaktTrigger #kontaktMenuElement { width: 118px; height: 82px; background-image: url(../images/shadow_onas.png); /* background-image: url(../images/shadow_kontakt.png); */ background-repeat: no-repeat; background-position: /*7px -7px*/ 20px -5px;}
+
+
+#menuOfertaTrigger { width: 265px; margin-top: -5px; margin-left: 21px; position: relative; }
+#mainMenu #menuOfertaTrigger #ofertaMenuElement {  margin-left: 20px; width: 120px; height: 48px; background-image: url(../images/shadow_oferta.png); background-repeat: no-repeat; background-position: -2px -2px; z-index:40;}
+#mainMenu #menuOfertaTrigger #ofertaMenuElement img{position:relative; z-index:40;}
+#mainMenu #menuOfertaTrigger #ofertaMenuElement a { position:relative; z-index:40;}
+#mainMenu #menuOfertaTrigger #ofertaMenuElement #yellowField { z-index: 2;  height:196px; width: 287px;/*287px;*/ font-size: 12px; padding-top: 50px; /*margin-top: -33px;*/ margin-left: -3px; /*top:-30px;*/ position:relative; background-color: #FFC000; display: none;}
+#mainMenu #menuOfertaTrigger #ofertaMenuElement #yellowField a:hover { color: #F5821F; }
+
+#mainMenu #menuOfertaTrigger #ofertaMenuElement #yellowOuterField { background-image: url(../images/cien4.png); width: 315px; padding-right: 5px; margin-top: -33px; height: 280px; margin-left: 0px; position:relative; display: none; z-index: 1;}
+
+#yellowField #sideMenuHover {display: none; padding: 0px; z-index: 1; font-size: 14px; margin-left: 0px;  }
+
+#yellowField #sideMenuHover .blackBackgroundHover { margin-left:-3px; padding: 0px;  background-color: #000000; width: 290px; margin-top: 3px; list-style-type: none; line-height: 18px;}
+#yellowField #sideMenuHover .blackBackgroundHover a { color: #FFFFFF; margin-left: 23px; font-size: 14px; font-weight: bold; } 
+/*#header .menu .backgroundMenuYellow2 {background-color: #ffc000; }
+#header .menu .backgroundMenuYellow2 ul {padding-top: -30px;}
+#header .menu .backgroundMenuYellow2 a { color: #000000;  font-size: 14px;}*/
+
+
+#yellowField #menuOferta { z-index:2; width: 250px; height: 91px;  padding-top: 0px; padding-left: 20px; margin-right: 40px; font-weight: bold; list-style-type: none; display: none;}
+#yellowField #menuOferta li a {color: #000000; font-size: 14px; line-height: 18px;}
+#yellowField #menuOferta ul { margin-top: -31px;  margin-left:0px; width: 100px; padding-top: 20px;}
+#menuCennikTrigger {margin-left: -65px;}
+#container #mainContent .sideMenu .blackBackground a {color: #FFFFFF; margin-left: 97px; font-size: 14px; font-weight: bold; }
+#container #mainContent .sideMenu .blackBackground a:hover { color: #F5821F;  } 
+#container #mainContent .sideMenu .blackBackground {background-color: #000000; width: 364px; margin-top: 2px; margin-left: 0px; list-style-type: none;}
+#container {margin-top:0px;}
+#container #mainContent {position: relative; text-align: justify; display: inline-block; *+float: left;}
+#container #mainContent .sideMenu { margin-top: 57px;/*margin-top: -170px;*/ z-index: 0; }
+#container #mainContent .nameCompany {background-color: #f39e0a; width: 290px; line-height: 31px; font-size: 38px; color: #000000; padding-bottom: 5px; padding-left: 50px; padding-right: 5px; margin-top: -15px; margin-left: 635px; }
+#container #mainContent .address {color: #FFFFFF; margin-left: 745px; margin-top: -1px;}
+#container #mainContent .address .streetName, #container #mainContent .address .postoffice, #container #mainContent .address .phoneNumber {background-color: #000000; font-size: 14px; text-align: center; }
+#container #mainContent .address .streetName {width: 170px;}
+#container #mainContent .address .postoffice {width: 130px; margin-left: 40px;}
+#container #mainContent .address .phoneNumber {width: 150px; margin-left: 20px;}
+#container #mainContent .accessMenuBackground { background-image: url(../images/access_menu_background4.png); background-repeat: no-repeat; width: 890px; height: 28px; margin-top: 5px; margin-left: 80px;}
+#container #mainContent .accessMenuBackground div {display: inline; font-size: 23px; font-weight: bold; margin-top:10px;}
+#container #mainContent .accessMenuBackground .controlers a {color: #ff4800; margin-right: 82px; margin-left: 10px; }
+#container #mainContent .accessMenuBackground .ftp a {color: #f5821f; margin-right: 140px; line-height: 28px;}
+#container #mainContent .accessMenuBackground .email a {color: #ffd200; margin-top:30px;}
+
+#container #mainContent .caption { margin-top: 40px; margin-left: 23px; width: 766px; color: #f5821f; border-bottom: 1px solid #f5821f; font-size: 18px; word-spacing: 9px; letter-spacing: 8px; text-align: right; }
+#container #mainContent .blackContent .caption {margin-top: 40px; margin-left: 3px; width: 766px; color: #f5821f; border-bottom: 1px solid #f5821f; font-size: 18px; word-spacing: 9px; letter-spacing: 8px; text-align: right;}
+#container #mainContent .info {margin-top: 30px; }
+#container #mainContent .info .moved { margin-left: -40px;}
+#container #mainContent .info .backgroundInfo { font-family: Courier New; margin-top: -25px; overflow: visible; background-image: url(../images/info_background.png); background-repeat: no-repeat; overflow: visible; width: 810px; height: 37px; padding-top: 20px; font-size: 11px; font-weight: bold; color: #000000; }
+#container #mainContent .info .backgroundInfo .infoCaption {padding-left: 40px; width: 900px; margin-left: 3px; word-spacing: 1px; padding-bottom: 3px;}
+#container #mainContent .info .backgroundInfo .moved { width: 920px; margin-left: 3px; word-spacing: 1px;}
+#container #mainContent .lower { margin-top: 37px; }
+#container #mainContent .lowerCaption { margin-top: 45px; }
+
+
+#container #mainContent .ofertaDruk {padding-left: 50px; padding-top: 20px; min-height: 250px; width: 680px;}
+#container #mainContent .ofertaDruk a { color: #F5821F; }
+#container #mainContent .ofertaDruk ul {list-style-type: disc; padding-left: 20px; }
+#container #mainContent .ofertaDruk #item {margin-top: 10px;}
+#container #mainContent .ofertaDruk ul li { width: 650px;}
+#container #mainContent .ofertaDruk #title {color: #f5821f; font-size: 16px; }
+#container #mainContent .ofertaDruk #subtitle {font-size: 16px;}
+#container #mainContent .ofertaDruk #titleNosniki {display: inline-block; width: 300px; margin-top: 15px; font-size: 16px;}
+#container #mainContent .ofertaDruk .textDodatki {display: inline-block; width:250px; font-size: 11px; margin-top: 20px;}
+#container #mainContent .ofertaDruk .textDodatki span {display: block;}
+#container #mainContent .ofertaDruk .textDodatkoweInfo { display: inline-block; width: 380px; font-size: 11px; margin-left: 40px; word-spacing: 5px; text-align: left;}
+#container #mainContent .ofertaDruk .textDodatkoweInfo a {color: inherit; /*#db4408;*/}
+/*#container #mainContent .ofertaDruk .textDodatkoweInfo a {color: #ee872c; display: inline-block;}*/
+
+#container #mainContent .whiteContent {width: 160px; font-size: 12px; display: inline-block; vertical-align: top; text-align: right; margin-top: -10px; font-weight: bold;}
+#container #mainContent .whiteContent ul {list-style-type: none; padding-right: 10px; line-height: 25px;}
+#container #mainContent .whiteContent a {color: #aca5a5; }
+#container #mainContent .whiteContent a:hover {color: #F5821F; }
+#container #mainContent .blackContent {background-color: #373737; color: #FFFFFF; font-size: 14px; width: 770px; display: inline-block; margin-top: -10px; margin-left: 40px; overflow: visible; }                                        
+
+.noBackground{ background-image: none;}
+.bckLogin { margin-left:50px; }
+.breadcrumbs { font-size: 12px; height: 20px; margin-left: 45px; margin-top: -30px; padding-bottom:10px;}
+.breadcrumbs a { color: #ACA5A5; }
+.breadcrumbs a:hover { color: #F5821F; }
+.bottom_menu { background-color: #000000; padding-top: 4px;}
+.bottom_menu a{ color: #ACA5A5; border-right: 1px solid #ACA5A5; padding: 0px 10px; }
+.bottom_menu a.last { border-right: none; }
+
+.layout_menu_map_contact_left{ width:350px; float:right; }

@@ -1,0 +1,81 @@
+body {background: none repeat scroll 0 0 #F9FCFE; }
+/* logowanie */
+.admTxtTytul { position: absolute; top: 50px; width: 100%; margin: auto; color: #f0f0f0; font-size: 60px; text-align: center; }
+
+.admPnlLogRamMain {
+        text-align: left;
+	position: absolute;
+	margin: auto;
+	top: 50%; left: 50%;
+	width: 400px;
+	margin-top: -200px; margin-left: -300px; }
+
+.admPnlLogRamSelect { width: 400px; }
+.admPnlLogRamSelect form { float: left; margin-bottom: 5px; }
+.admPnlLogRam {
+	clear: left; overflow: hidden;
+	width: 360px; height: auto;
+	padding: 20px 10px;
+        text-align: left; font: 16px Arial,Helvetica,Verdana,sans-serif; color: #514B4A; margin-top: 5px; padding:20px;
+}
+.a
+.nazwaPola {width: 140px; text-align: right; font: bold 18px Arial,Helvetica,Verdana,sans-serif; color: #657788; margin-top: 5px; margin-right: 5px; }
+.admPnlLogRam .pnlRgh { float: right; width: 140px; border-left: 1px solid #eaeaea; padding: 0 15px; font-size: 11px; line-height: 14px; color: #969696; }
+.admPnlLogRam { margin: 0; padding: 0; margin-top: 20px; margin-right: 5px; }
+.admPnlLogRam input {
+	float: left; clear: left;
+	padding: 3px 5px;
+	border: 1px solid #4D535E;
+	background: #ffffff;
+	width: 300px;
+        font-size: 28px;
+	line-height: 18px;
+	text-align: left;
+        font-family: Georgia,Times,"Times New Roman",serif;
+
+        color:gray;
+}
+.admPnlLogRam input:focus {
+	float: left; clear: left;
+	padding: 3px 5px;
+	border: 1px solid #4D535E;
+	background: #F9F8E4;
+	width: 300px;
+        font-size: 28px;
+	line-height: 18px;
+	text-align: left;
+        font-family: Georgia,Times,"Times New Roman",serif;
+
+        color:#555555;
+}
+
+.admPnlLogRam input.admFrmInpSub {
+	border: 1px solid #3079ED;
+	background: #4D90FE;
+        cursor: pointer;
+	color: #fff;
+        font-size:18px;
+        font-family: Helvetica,Arial,sans-serif;
+	width: 150px;	
+	margin-top: 5px;
+        text-align: center;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+.loginRow { padding:5px 15px; }
+.hint { font-size: 12px; color: grey; }
+
+.errorSummary { color:red; padding: -10px; margin-top:20px; text-align: justify; font-family: Verdana,Times,"Times New Roman",serif; padding:5px 15px; }
+
+/* */
+
+.qbixLogo { width:60px; height: 60px; margin: 0 auto; }
+.qbixLogo img { width:60px; height: 60px; margin: 0 auto; }
+
+.content { margin: 0 auto; width:370px; padding-top: 100px; }
+
+.content .bckLogin .form { width:360px; margin:0 auto; }
+
+.content .bckLogin .form a { color: #D91D1D; text-decoration: none; }
+.content .bckLogin .form a:hover { color: #D91D1D; text-decoration: none; }

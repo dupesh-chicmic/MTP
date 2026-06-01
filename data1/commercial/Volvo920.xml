@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 ES</cell>
+    <cell>Estate 5d</cell>
+    <cell>39495</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 ES Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>42995</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>178</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 ES AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>44495</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 ES AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>48495</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D5 ES AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>46995</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D5 ES AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>50995</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE</cell>
+    <cell>Estate 5d</cell>
+    <cell>42295</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>45795</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>178</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>47295</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>51295</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D5 SE AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>49795</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D5 SE AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>53795</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE Lux</cell>
+    <cell>Estate 5d</cell>
+    <cell>45095</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE Lux Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>48595</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>178</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE Lux AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>50095</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D4 SE Lux AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>54094</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D5 SE Lux AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>52595</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC60 D5 SE Lux AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>56595</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 ES</cell>
+    <cell>Estate 5d</cell>
+    <cell>46545</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 ES Geartronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>49545</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 ES AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>52845</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 ES AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>56845</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D5 ES AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>55845</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D5 ES AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>59845</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE</cell>
+    <cell>Estate 5d</cell>
+    <cell>50270</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE Geartronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>53270</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>56570</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>60570</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D5 SE AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>59570</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D5 SE AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>63570</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE Lux</cell>
+    <cell>Estate 5d</cell>
+    <cell>54220</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE Lux Geartronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>57220</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE Lux AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>60520</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D4 SE Lux AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>64520</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D5 SE Lux AWD</cell>
+    <cell>Estate 5d</cell>
+    <cell>63520</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC70 D5 SE Lux AWD Gtronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>67520</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC90 D4 ES Geartronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>56345</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>212</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC90 D4 SE Geartronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>60695</cell>
+    <cell />
+    <cell>1984</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>212</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC90 D5 SE Geartronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>66695</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>215</cell>
+    <cell />
+  </row>
+  <row>
+    <man>920</man>
+    <cell>XC90 D5 SE Lux Geartronic</cell>
+    <cell>Estate 5d</cell>
+    <cell>72695</cell>
+    <cell />
+    <cell>2400</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>215</cell>
+    <cell />
+  </row>
+</rows>

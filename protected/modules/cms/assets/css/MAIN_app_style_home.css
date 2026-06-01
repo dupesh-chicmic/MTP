@@ -1,0 +1,133 @@
+﻿
+	@charset "utf-8";
+	/* CSS Document */
+	
+	body {
+		margin: 0; padding: 0;
+		font-family: Arial, Tahoma;
+		background: #eaeaea;
+		color: #383838;
+	}
+	a { color: #d91d1d; text-decoration: none; cursor: pointer; }
+	a:hover { text-decoration: none; }
+	
+	div, a, form {
+		overflow: hidden;
+		margin: 0; padding: 0;
+	}
+	
+	img { border: 0; }
+
+
+
+
+	/*	---------------------- 
+	*	Konstrukcja strony */
+	
+	.page { width: 100%; background: url(../images/bg.png) repeat-x top left; }
+
+	.page .header, .page .banner, .page .content, .page .footer {
+		clear: left; margin: auto; overflow: hidden;
+	}
+
+	.page .header		{ width: 960px; height: 99px; }
+	.page .banner		{ width: 960px; height: 341px; }
+	.page .content		{ width: 960px; }
+	.page .footer		{ width: 960px; }
+
+	/*	Konstrukcja END 
+	*	---------------------- */
+
+
+
+
+	/*	---------------------- 
+	*	Nagłówek */
+
+	.header div					{ float: left; display: inline; }
+	.header .logo				{ width: 99px; height: 60px; margin: 20px 0 0 20px; background: url(../images/logo.png) no-repeat top left; }
+	.header .menu				{ width: 500px; text-align: left; font-size: 14px; margin-top: 60px; margin-left: 20px; border-left: 1px solid #dddddd; line-height: 26px; }
+	.header .menu a				{ color: #383838; margin-left: 20px; }
+	.header .search				{ float: right; display: inline; width: 170px; margin-right: 10px; margin-top: 58px; }
+	.header .search div.input	{ float: left; display: inline; width: 130px; height: 26px; background: url(../images/form_input_search.png) no-repeat; }
+	.header .search input.input	{ width: 120px; border: 0; background: none; padding: 7px 2px 4px 6px; font-size: 11px; color: #969696; }
+	.header .search div.button	{ float: left; display: inline; width: 38px; height: 26px; background: url(../images/btn_search.png) no-repeat; }
+
+        .header .menu ul { margin: 0px; padding: 0px;}
+        .header .menu ul li { display: inline; }
+	/*	Nagłówek END 
+	*	---------------------- */
+
+
+
+
+	/*	---------------------- 
+	*	banner */
+
+	.banner						{ padding-top: 10px; }
+	.banner .banner_main		{ width: 960px; height: 271px; background: url(../images/bg_banner.png) no-repeat; }
+	.banner .banner_main .top	{ width: auto; height: 181px; }
+	
+	.banner_main .top img		{ float: left; display: inline; }
+	.banner_main .top .title	{ float: left; display: inline; /*font-size: 30px; color: #383838;*/ margin: 15px 0 0 30px; }
+	.banner_main .top .title span { font-size: 14px; color: #383838; width:600px; }
+
+	.banner .banner_main .down	{ clear: left; width: auto; height: 70px; background: url(../images/bg_pasek.png) no-repeat; margin: 10px 0 0 10px; }
+	
+	.banner_main .down a		{ float: left; display: inline; width: 180px; height: 44px; font-size: 12px; color: #cccccc; margin: 15px 0 0 20px; font-style: italic; }
+	.banner_main .down a.strony { background: url(../images/ico_strony.png) no-repeat top left; }
+	.banner_main .down a.sklepy { background: url(../images/ico_sklepy.png) no-repeat top left; }
+	.banner_main .down a.apps	{ background: url(../images/ico_aplikacje.png) no-repeat top left; }
+	.banner_main .down a div	{ margin-left: 44px; margin-top: 3px; }
+	
+	.banner .path				{ clear: left; width: 580px; margin: 12px 0 0 10px; font-size: 11px; color: #eaeaea; }
+	.banner .box				{ position: absolute; z-index: 1000; margin: 125px 0 0 625px; width: 328px; height: 168px; background: url(../images/bg_box.png) no-repeat top left; }
+	.banner .box a				{ float: left; margin: 24px 0 0 24px; color: #ffffff; font-weight: bold; font-size: 18px; }                
+	.banner .box a span			{ font-weight: normal; font-size: 10px; font-style: italic; }
+	.banner .box a.tag			{ float: right; margin: 24px 24px 0 0; color: #d91d1d; font-weight: normal; font-size: 10px; padding: 0 5px; background: #eaeaea; }
+	.banner .box .tresc			{ float: left; clear: both; width: 280px; margin: 10px 0 0 24px; padding-top: 10px; border-top: 1px solid #ec5a5a; font-size: 11px; color: #eaeaea; }
+	.banner .box .tresc img		{ float: left; margin-right: 10px; }
+
+	/*	Banner END 
+	*	---------------------- */
+
+
+
+	/*	---------------------- 
+	*	Tresc */
+
+	.content .top				{ height: 10px; background: url(../images/bg_page_top.png) no-repeat; }
+	.content .tresc				{ background: #ffffff; padding-bottom: 30px; }
+	.content .tresc .col		{ float: left; display: inline; width: 290px; font-size: 12px; line-height: 16px; margin: 10px 10px 0 20px; text-align: justify; }
+	.content .tresc .col .title	{ font-size: 14px; font-weight: bold; }
+	.content .tresc .col .date	{ width: 140px; height: 19px; line-height: 19px; font-size: 11px; color: #ffffff; background: url(../images/bg_date.png) no-repeat top left; margin-top:10px; }
+	.content .tresc .col .date span	{ padding: 0 9px; margin-right: 10px; }
+	.content .bottom			{ height: 10px; background: url(../images/bg_page_bottom.png) no-repeat; margin: 0; }
+
+	/*	Tresc END 
+	*	---------------------- */
+
+
+
+
+	/*	---------------------- 
+	*	Stopka */
+
+	.footer						{ padding: 10px; font-size: 11px; line-height: 26px; }
+	.footer .menu				{ float: left; display: inline; text-transform: uppercase; padding-right: 20px; margin-right: 20px; border-right: 1px solid #dddddd; }
+	.footer .menu a				{ float: left; margin-left: 20px; color: #383838; font-size: 10px; }
+	.footer .copy				{ float: left; display: inline; }
+
+        .footer .menu ul { margin: 0px; padding: 0px;}
+        .footer .menu ul li { display: inline; }        
+        
+	/*	Stopka END 
+	*	---------------------- */
+        
+        .content .tresc .col .newsTitle	{ font-size: 14px; font-weight: bold; float:left; width:280px; padding-bottom:10px; }
+        .content .tresc .col .newsPicture { width: 45px; height: 45px; padding:5px 10px 10px 0px; float:left; }        
+        
+        
+        
+#languageMenu {display: inline-block; vertical-align: top; margin-top: 40px; text-align: right; float: right; margin-right:10px; }
+#languageMenu li {display: inline; font-size: 11px; word-spacing: 2px; margin-left: 9px; color: #383838; font-weight: bold; font-size: 12px;}        

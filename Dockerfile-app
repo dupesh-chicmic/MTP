@@ -1,0 +1,29 @@
+# Dockerfile-app
+
+# Use PHP 5.6 with Apache for the base image
+FROM php:5.6-apache
+
+# Enable the Rewrite Apache mod
+RUN cd /etc/apache2/mods-enabled && \
+    ln -s ../mods-available/rewrite.load
+
+# Install required PHP extensions
+# -- GD
+RUN apt-get update && \
+    apt-get install -y libfreetype6-dev && \
+    apt-get install -y libxml2-dev && \
+    docker-php-ext-configure gd --with-freetype-dir=/usr/include/ && \
+    docker-php-ext-install -j$(nproc) gd \
+    && apt-get install software-properties-common -y \
+  && add-apt-repository ppa:certbot/certbot -y \
+  && apt-get clean -y
+# -- mysql
+RUN docker-php-ext-install -j$(nproc) mysql pdo_mysql
+RUN docker-php-ext-install soap
+RUN apt-get install certbot python-certbot-apache -y
+RUN a2enmod ssl && a2enmod headers
+# Copy HTTP server config
+COPY 000-default.conf /etc/apache2/sites-available/
+COPY launcher.sh /usr/local/bin/launcher.sh
+RUN chmod +x /usr/local/bin/launcher.sh
+#CMD /usr/local/bin/launcher.sh

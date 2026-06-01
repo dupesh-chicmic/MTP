@@ -1,0 +1,263 @@
+.topBar {
+    width: 100%;
+    background-color: #ffd800;
+}
+
+.ui-block-a {
+    width: 40%;
+    background-color: #ffd800; 
+}
+
+.ui-block-b {
+    width: 20%;
+}
+
+.ui-block-c {
+    width: 40%;
+    background-color: #000000;
+}
+
+.ui-body-b {
+    background-color: #ffd800;
+}
+
+.ui-controlgroup-controls {
+    width: 100%;
+}
+
+#dw-control-group .ui-controlgroup-controls {
+    width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+#dw-control-group .ui-controlgroup-controls a { border-radius: 0; font-family: 'Poppins', sans-serif;padding:15px;}
+.ui-radio {}
+
+.dw-radio-btn {
+    width: 40%;
+    float: left;
+}
+
+.res_desc {
+    float: left;
+    text-align: left;
+    width: 45%;
+}
+
+.res_res {
+    float: right;
+    width: 45%;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.res_res>span {
+    float: left;
+    margin: 0px !important;
+    text-align: left !important;
+}
+
+.buttonGo {
+    position: relative;
+    left: 50%;
+    width: 80px;
+    margin-left: -40px;
+}
+
+.buttonLogin {
+    position: relative;
+    left: 50%;
+    width: 190px;
+    margin-left: -95px;
+}
+
+.buttonBack {
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.ui-body-b {
+    border-color: #ffd800;
+    color: #ffd800;
+}
+
+.ui-body-a {
+    text-align: center;
+    color: #ffd800;
+}
+
+.ui-block-a .ui-body-b {
+    padding: 0.2em 0.2em;
+}
+
+.ui-block-b .ui-body-b {
+    padding: 0.2em 0.2em;
+}
+
+.ui-block-c .ui-body-b {
+    padding: 0.2em 0.2em;
+}
+
+.leftIcon {
+    height: 40px;
+    float: left;
+}
+
+.centerIcon {
+    height: 40px;
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.rightIcon {
+    height: 40px;
+    float: right;
+}
+
+/*Login page*/
+
+.log-in-form {
+    margin-top: 100px;
+}
+
+.log-in-form>p>ui-btn {
+    background-color: #ffd800 !important;
+}
+
+.dw-yellow {
+    /*background-color: #ffd800 !important;
+    color: #000000;*/
+}
+
+/*result page*/
+
+.emphasize2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 15px;
+}
+
+.emphasize3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.emphasize4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.tiny_text {
+    font-size: 10px;
+}
+
+.right {
+    float: right;
+}
+
+/*forms*/
+
+.ui-input-text input {
+    line-height: 1.9em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ui-input-text {
+    border-color: #ffd800 !important;
+    color: #ffffff;
+}
+
+.ui-input-btn input {
+    /* opacity:1 !important;    */
+}
+
+/*footer*/
+
+.guide_footer {
+    position: relative;
+    box-sizing: border-box;
+    color: #4d4d4d;
+    line-height: 14px;
+    padding: 6px;
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid;
+    border-color: #4d4d4d;
+}
+
+.footer_right a {
+    color: #4d4d4d;
+}
+
+.footer_right {
+    float: right;
+    text-align: right;
+}
+
+.ui-content {
+    min-height: 500px;
+}
+
+/******************************************/
+
+.emphasize2 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 12px;
+}
+
+.emphasize3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.emphasize4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.tiny_text {
+    font-size: 9px;
+}
+/**Changes**/
+.ui-content *{box-sizing:border-box;font-family: 'Poppins', sans-serif;}
+.menu_group {margin-left:-5px; margin-right:-7px; margin-top:7px; text-align:center;}
+.menu_group .ui-select { width: 33.33%; float:left; padding:0 7px;}
+.menu_group .ui-input-text{clear:both; margin:7px 5px 0; display:inline-block; width:calc(33.33% - 14px); border-radius: 0;}
+.menu_group .ui-select .ui-btn{border-radius:0; font-weight:400; }
+
+.buttonGo {margin:15px 0 0;}
+
+table { border-spacing: 0; border-color: grey; border-collapse: collapse;}
+.table_ui table th { background-color: #ffd800; color: #000; padding: 14px 10px; text-align: left; text-transform: uppercase; font-size: 14px;}
+.table_ui table td { border-bottom: #2b2b2b 1px solid; padding: 12px!important;}
+
+.carTable td{border-bottom: #2b2b2b 1px solid}
+
+.carForm { width: 60%; margin: 0 auto 15px; clear: both; float: none;}
+
+/******************************************/
+
+/*@media screen and (device-aspect-ratio: 40/71), @media screen and (device-aspect-ratio: 2/3) {*/
+
+@media screen and (device-aspect-ratio: 40/71) {
+    .dw-radio-btn {
+        width: 38%;
+    }
+}
+
+@media (max-width:575px){
+.carForm { width: 100%;}
+}
+/*}*/

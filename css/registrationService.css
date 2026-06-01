@@ -1,0 +1,193 @@
+/* 
+    Created on : 2014-01-14, 22:31:37
+    Author     : Mariusz
+*/
+
+
+#purchaseStyle {
+    color: #0066FF;
+}
+
+#purchaseStyle a {
+    color: #0066FF;
+}
+
+.carForm {margin: 20px 0; float:left; width:100%; }
+.divider2 {width: 300px; border-top:  1px solid #e3e8e4; }
+.carForm label, .form2 label {font-weight: bold; font-size: 14px; padding: 10px 0; display: block; font-family: Helvetica,sans-serif;}
+.carForm label {font-weight: bold; font-size: 14px; padding: 10px; display: block; font-family: Helvetica,sans-serif;}
+.form1 {height: 32px; width: 290px; padding: 5px; background-color: #f3f5f4;   border: 2px solid #d2d4d3;}
+.carForm input.km {   background-color: rgba(0, 0, 0, 0); color: #354147; font-family: Helvetica,sans-serif; margin: 0; padding: 5px; height: 30px; width: 163px; font-size: 14px; display: inline-block; border: none;}
+.adjustedValue {font-family: Helvetica,sans-serif;}
+.adjustedValue img {float:left;}
+.value {background-color: #2d8296; color: #ffffff; font-size: 17px; padding: 15px 10px; font-weight: bold; display: block;}
+.button1 {cursor: pointer; background: url(../images/background_button.png); height: 32px; width: 150px; border: none; border-radius: 3px; display: inline-block; color: #ffffff; font-size: 13px; font-weight: bold; vertical-align: top;}
+
+
+.checkHistoryWrapper {
+    clear: both;
+}
+
+.buttonCheckHistory {
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+
+.searchFieldHistory {
+    float: right;
+}
+
+.checkHistoryWrapper {
+    width: 100%;
+}
+
+/* START CHECK VEHICLE HISTORY */
+
+body {
+    font-family: Helvetica,sans-serif;
+}
+
+.verticalAligntop {
+    vertical-align: top;
+}
+
+.marginBottom {
+    margin-bottom: 30px;
+}
+
+.vehicleDataTable, .vehicleRegistrationTable, .riskIndicatorsTable {
+    width: 100%;
+}
+
+.motorTaxTable, .nctTable, .saleHistoryTable, .ncapTable, .subTable {
+    width: 50%;
+}
+
+
+th, td {
+    padding: 10px;
+}
+
+td {
+    border-bottom: 1px solid #EBEDE8;
+}
+
+.tbHead {
+    background: #77BDC8 !important;
+    color: #243845;
+    font-size: 22px;
+    text-align: left;
+}
+
+.tdLabel {
+    color: #398D9F;
+    font-weight: bold;
+}
+
+.tdLabel, .tdInfo, .tdInfoSubTable, .tdLabelSubTable {
+    font-size: 14px;
+}
+
+.borderRight {
+    border-right: 1px solid #EBEDE8;
+}
+
+.borderLeft {
+    border-left: 1px solid #EBEDE8;
+}
+
+.subTable {
+    background-color: #EBEDE8;
+}
+
+.tdLabelSubTable {
+    font-weight: bold;
+}
+
+.subTableMarginBottom {
+    margin-bottom: 15px;
+}
+
+/* END CHECK VEHICLE HISTORY */
+
+
+/* START CHECK VEHICLE HISTORY MOBILE */
+
+.vehicleDataTableMobile, .vehicleRegistrationTableMobile, .riskIndicatorsTableMobile, .motorTaxTableMobile, .nctTableMobile, .saleHistoryTableMobile, .ncapTableMobile, .subTableMobile {
+    width: 100%;
+}
+
+
+.checkHistoryWrapper th, td {
+    padding: 10px !important;
+}
+
+td {
+    border-bottom: 1px solid #EBEDE8 !important;
+}
+
+.tbHeadMobile {
+    background: #77BDC8 !important;
+    color: #243845;
+    font-size: 22px;
+    text-align: left;
+}
+
+.tdLabelMobile {
+    color: #398D9F !important;
+    font-weight: bold !important;
+}
+
+.tdLabelMobile, .tdInfoMobile, .tdInfoSubTableMobile, .tdLabelSubTableMobile {
+    font-size: 14px;
+}
+
+td.tdInfoMobile , td.tdInfoSubTableMobile {
+    padding-left: 0 !important;
+}
+
+.borderRight {
+    border-right: 1px solid #EBEDE8;
+}
+
+.borderLeft {
+    border-left: 1px solid #EBEDE8;
+}
+
+.subTable {
+    background-color: #EBEDE8;
+}
+
+.tdLabelSubTableMobile {
+    font-weight: bold;
+}
+
+.subTableMarginBottom {
+    margin-bottom: 15px;
+}
+
+.checkHistoryWrapper .ui-collapsible-content {
+    padding: 0.5em !important;
+}
+
+.buttonCheckHistoryMobile {
+    margin-bottom: 20px;
+}
+
+.generatePdfDivMobile {
+    padding: 20px 0; 
+}
+
+.generatePdfDiv {
+    padding: 20px 0; 
+}
+
+.generatePdfDiv a {
+    text-decoration: none;
+}
+
+.generatePdfDiv a:visited {
+    color: #3388cc;;
+}
+
+/* END CHECK VEHICLE HISTORY MOBILE */

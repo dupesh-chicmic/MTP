@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>380</man>
+    <cell>Daily 35 S12 Euro 4</cell>
+    <cell>Van 12.0 cm</cell>
+    <cell>28612</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>380</man>
+    <cell>Daily 35 C12 Euro 4</cell>
+    <cell>Van 12.0 cm</cell>
+    <cell>30808</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>380</man>
+    <cell>Daily 35 C15 Euro 4</cell>
+    <cell>Van 15.6 cm</cell>
+    <cell>32947</cell>
+    <cell>3500</cell>
+    <cell>3000</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>380</man>
+    <cell>Daily 35 C12 Euro 4</cell>
+    <cell>Ch.Cab</cell>
+    <cell>26416</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>380</man>
+    <cell>Daily 35 C15 Euro 4</cell>
+    <cell>Ch.Cab</cell>
+    <cell>28684</cell>
+    <cell>3500</cell>
+    <cell>3000</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>380</man>
+    <cell>Daily 35 C18 Euro 4</cell>
+    <cell>Ch.Cab</cell>
+    <cell>29709</cell>
+    <cell>3500</cell>
+    <cell>3000</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+</rows>

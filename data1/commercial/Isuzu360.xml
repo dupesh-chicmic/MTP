@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>360</man>
+    <cell>NLR Dsl 2480mm Euro 4</cell>
+    <cell>Ch. Cab</cell>
+    <cell>27106</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>NLR Dsl 3350mm Euro 4</cell>
+    <cell>Ch. Cab</cell>
+    <cell>27106</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>NLR Dsl 3350mm Euro 4</cell>
+    <cell>Crew Cab</cell>
+    <cell>30780</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>NNR Dsl 2800mm Euro 4</cell>
+    <cell>Ch. Cab</cell>
+    <cell>28444</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>NNR Dsl 3395mm Euro 4</cell>
+    <cell>Ch. Cab</cell>
+    <cell>28444</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>NNR Dsl 2800mm Euro 5</cell>
+    <cell>Chassis Cab</cell>
+    <cell>31980</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>NNR Dsl 3395mm Euro 5</cell>
+    <cell>Chassis Cab</cell>
+    <cell>31980</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>D-Max 2.5 Dsl</cell>
+    <cell>Single Cab 2WD</cell>
+    <cell>23155</cell>
+    <cell />
+    <cell>2499</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>D-Max 2.5 Dsl</cell>
+    <cell>Single Cab 4WD</cell>
+    <cell>25735</cell>
+    <cell />
+    <cell>2499</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>D-Max 2.5 Dsl Deluxe</cell>
+    <cell>Crew Cab 4WD</cell>
+    <cell>34735</cell>
+    <cell />
+    <cell>2499</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>360</man>
+    <cell>D-Max 2.5 Dsl Deluxe Auto</cell>
+    <cell>Crew Cab 4WD</cell>
+    <cell>36036</cell>
+    <cell />
+    <cell>2499</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+</rows>

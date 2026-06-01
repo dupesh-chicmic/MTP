@@ -1,0 +1,27 @@
+<manufacturers>
+	<make distributor="Audi" effective="-/4/14" file="Audi.xml"/>
+	<make distributor="BMW" effective="-/7/14" file="BMW.xml"/>
+	<make distributor="Citroen" effective="1/4/14" file="Citroen.xml"/>
+	<make distributor="Fiat" effective="1/6/12" file="Fiat.xml"/>
+	<make distributor="Ford" effective="17/3/14" file="Ford.xml"/>
+	<make distributor="Honda" effective="15/5/14" file="Honda.xml"/>
+	<make distributor="Hyundai" effective="-/3/14" file="Hyundai.xml"/>
+	<make distributor="Isuzu" effective="1/7/14" file="Isuzu.xml"/>
+	<make distributor="Iveco" effective="1/1/13" file="Iveco.xml"/>
+	<make distributor="Jeep" effective="-/12/13" file="Jeep.xml"/>
+	<make distributor="Kia" effective="-/6/14" file="Kia.xml"/>
+	<make distributor="Land Rover" effective="-/1/14" file="Land Rover.xml"/>
+	<make distributor="Lexus" effective="1/11/13" file="Lexus.xml"/>
+	<make distributor="Mazda" effective="-/4/14" file="Mazda.xml"/>
+	<make distributor="Mercedes" effective="-/6/13" file="Mercedes.xml"/>
+	<make distributor="Mini" effective="-/3/14" file="Mini.xml"/>
+	<make distributor="Mitsubishi" effective="-/12/13" file="Mitsubishi.xml"/>
+	<make distributor="Nissan" effective="-/1/14" file="Nissan.xml"/>
+	<make distributor="Opel" effective="-/6/14" file="Opel.xml"/>
+	<make distributor="Peugeot" effective="17/2/14" file="Peugeot.xml"/>
+	<make distributor="Renault" effective="1/5/14" file="Renault.xml"/>
+	<make distributor="Ssangyong" effective="-/6/14" file="Ssangyong.xml"/>
+	<make distributor="Toyota" effective="1/4/14" file="Toyota.xml"/>
+	<make distributor="Volkswagen" effective="12/2/14" file="Volkswagen.xml"/>
+	<make distributor="Volvo" effective="12/5/14" file="Volvo.xml"/>
+</manufacturers>

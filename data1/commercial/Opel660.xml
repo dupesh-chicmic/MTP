@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>660</man>
+    <cell>Combo 2000 1.3 CDTi Base</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>15445</cell>
+    <cell>2000</cell>
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.3 CDTi Base</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>15745</cell>
+    <cell>2300</cell>
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.3 CDTi Base</cell>
+    <cell>Van 3d L2H1</cell>
+    <cell>16795</cell>
+    <cell>2300</cell>
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2000 1.6 CDTi Base</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>17145</cell>
+    <cell>2000</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2000 1.6 CDTi Base</cell>
+    <cell>Van 3d L1H2</cell>
+    <cell>18145</cell>
+    <cell>2000</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.6 CDTi Base</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>17445</cell>
+    <cell>2300</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.6 CDTi Base</cell>
+    <cell>Van 3d L1H2</cell>
+    <cell>18445</cell>
+    <cell>2300</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.6 CDTi Base</cell>
+    <cell>Van 3d L2H1</cell>
+    <cell>17945</cell>
+    <cell>2300</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2000 1.3 CDTi Sport</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>16695</cell>
+    <cell>2000</cell>
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.3 CDTi Sport</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>16995</cell>
+    <cell>2300</cell>
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.3 CDTi Sport</cell>
+    <cell>Van 3d L2H1</cell>
+    <cell>18045</cell>
+    <cell>2300</cell>
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2000 1.6 CDTi Sport</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>18395</cell>
+    <cell>2000</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2000 1.6 CDTi Sport</cell>
+    <cell>Van 3d L1H2</cell>
+    <cell>19395</cell>
+    <cell>2000</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2000 2.0 CDTi Sport</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>20895</cell>
+    <cell>2000</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.6 CDTi Sport</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>18695</cell>
+    <cell>2300</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.6 CDTi Sport</cell>
+    <cell>Van 3d L1H2</cell>
+    <cell>19695</cell>
+    <cell>2300</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 1.6 CDTi Sport</cell>
+    <cell>Van 3d L2H1</cell>
+    <cell>19195</cell>
+    <cell>2300</cell>
+    <cell>1598</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Combo 2300 2.0 CDTi Sport</cell>
+    <cell>Van 3d L1H1</cell>
+    <cell>21195</cell>
+    <cell>2300</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Vivaro 2700 2.0 CDTi</cell>
+    <cell>Van SWB (90 PS)</cell>
+    <cell>21195</cell>
+    <cell>2700</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Vivaro 2700 2.0 CDTi</cell>
+    <cell>Van SWB (115 PS)</cell>
+    <cell>21795</cell>
+    <cell>2700</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Vivaro 2900 2.0 CDTi</cell>
+    <cell>Van SWB (90 PS)</cell>
+    <cell>21395</cell>
+    <cell>2900</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Vivaro 2900 2.0 CDTi</cell>
+    <cell>Van SWB (115 PS)</cell>
+    <cell>21995</cell>
+    <cell>2900</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Vivaro 2900 2.0 CDTi</cell>
+    <cell>Van LWB (90 PS)</cell>
+    <cell>21695</cell>
+    <cell>2900</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Vivaro 2900 2.0 CDTi</cell>
+    <cell>Van LWB (115 PS)</cell>
+    <cell>22295</cell>
+    <cell>2900</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Vivaro 2900 2.5 CDTi 9S</cell>
+    <cell>Combi SWB (90PS)</cell>
+    <cell>37745</cell>
+    <cell>2900</cell>
+    <cell>2463</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 100</cell>
+    <cell>Van FWD L2H2</cell>
+    <cell>24000</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 125</cell>
+    <cell>Van FWD L2H2</cell>
+    <cell>25000</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 150</cell>
+    <cell>Van FWD L2H2</cell>
+    <cell>26500</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 100</cell>
+    <cell>Van FWD L3H2</cell>
+    <cell>25500</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 125</cell>
+    <cell>Van FWD L3H2</cell>
+    <cell>26000</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 150</cell>
+    <cell>Van FWD L3H2</cell>
+    <cell>27500</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 125</cell>
+    <cell>Van RWD L3H2</cell>
+    <cell>27200</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 150</cell>
+    <cell>Van RWD L3H2</cell>
+    <cell>28700</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 125</cell>
+    <cell>Van RWD L3H2 HD</cell>
+    <cell>28000</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 150</cell>
+    <cell>Van RWD L3H2 HD</cell>
+    <cell>29500</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 125</cell>
+    <cell>Van RWD L4H2 HD</cell>
+    <cell>29000</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>660</man>
+    <cell>Movano 3500 2.3 CDTi 150</cell>
+    <cell>Van RWD L4H2 HD</cell>
+    <cell>30500</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+</rows>

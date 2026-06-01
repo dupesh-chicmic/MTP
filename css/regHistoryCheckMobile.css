@@ -1,0 +1,68 @@
+/* START CHECK VEHICLE HISTORY MOBILE */
+
+.vehicleDataTableMobile, .vehicleRegistrationTableMobile, .riskIndicatorsTableMobile, .motorTaxTableMobile, .nctTableMobile, .saleHistoryTableMobile, .ncapTableMobile, .subTableMobile {
+    width: 100%;
+}
+
+
+.checkHistoryWrapper th, td {
+    padding: 10px !important;
+}
+
+td {
+    border-bottom: 1px solid #EBEDE8 !important;
+}
+
+.tbHeadMobile {
+    background: #77BDC8 !important;
+    color: #243845;
+    font-size: 22px;
+    text-align: left;
+}
+
+.tdLabelMobile {
+    color: #398D9F !important;
+    font-weight: bold !important;
+}
+
+.tdLabelMobile, .tdInfoMobile, .tdInfoSubTableMobile, .tdLabelSubTableMobile {
+    font-size: 14px;
+}
+
+td.tdInfoMobile , td.tdInfoSubTableMobile {
+    padding-left: 0 !important;
+}
+
+.borderRight {
+    border-right: 1px solid #EBEDE8;
+}
+
+.borderLeft {
+    border-left: 1px solid #EBEDE8;
+}
+
+.subTable {
+    background-color: #EBEDE8;
+}
+
+.tdLabelSubTableMobile {
+    font-weight: bold;
+}
+
+.subTableMarginBottom {
+    margin-bottom: 15px;
+}
+
+.checkHistoryWrapper .ui-collapsible-content {
+    padding: 0.5em !important;
+}
+
+.buttonCheckHistoryMobile {
+    margin-bottom: 20px;
+}
+
+.generatePdfDivMobile {
+    padding: 20px 0; 
+}
+
+/* END CHECK VEHICLE HISTORY MOBILE */

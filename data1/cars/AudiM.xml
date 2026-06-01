@@ -1,0 +1,236 @@
+<ncars>
+	<vehicle manufacturer="Audi" model="A1 1.2 T FSi" doors="3" body="Hatch" retail="20060" engine="4cy 1197cc " bhp="85" vrt="17" band="A4" co2="118" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A1 1.4 T FSi" doors="3" body="Hatch" retail="22260" engine="4cy 1390cc " bhp="125" vrt="18" band="B1" co2="124" fuel="Petrol" tax="270"/>
+	<vehicle manufacturer="Audi" model="A1 1.4 T FSi S-Tronic" doors="3" body="Hatch" retail="24560" engine="4cy 1390cc " bhp="125" vrt="17" band="A4" co2="119" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="S1 2.0 T FSi" doors="3" body="Hatch" retail="36370" engine="4cy 1984cc " bhp="231" vrt="27" band="D" co2="162" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="A1 1.6 TDi 90" doors="3" body="Hatch" retail="21180" engine="4cy 1598cc " bhp="90" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A1 1.6 TDi 90 S-Tronic" doors="3" body="Hatch" retail="23480" engine="4cy 1598cc " bhp="90" vrt="16" band="A3" co2="110" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A1 1.6 TDi 105" doors="3" body="Hatch" retail="22330" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A1 2.0 TDi Sport" doors="3" body="Hatch" retail="26800" engine="4cy 1968cc " bhp="143" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A1 Sportback 1.2 T FSi" doors="5" body="Hatch" retail="20660" engine="4cy 1197cc " bhp="85" vrt="17" band="A4" co2="118" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A1 Sportback 1.4 T FSi" doors="5" body="Hatch" retail="22860" engine="4cy 1390cc " bhp="125" vrt="18" band="B1" co2="126" fuel="Petrol" tax="270"/>
+	<vehicle manufacturer="Audi" model="A1 Sportback 1.4 T FSi S-Tr" doors="5" body="Hatch" retail="25160" engine="4cy 1390cc " bhp="125" vrt="18" band="B1" co2="122" fuel="Petrol" tax="270"/>
+	<vehicle manufacturer="Audi" model="S1 2.0 T FSi" doors="5" body="Hatch" retail="36970" engine="4cy 1984cc " bhp="231" vrt="27" band="D" co2="166" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="A1 Sportback 1.6 TDi 90" doors="5" body="Hatch" retail="21780" engine="4cy 1598cc " bhp="90" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A1 Sportback 1.6 TDi 90 S-Tr" doors="5" body="Hatch" retail="24080" engine="4cy 1598cc " bhp="90" vrt="16" band="A3" co2="110" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A1 Sportback 1.6 TDi 105" doors="5" body="Hatch" retail="22930" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A1 Sportback 2.0 TDi Sport" doors="5" body="Hatch" retail="27400" engine="4cy 1968cc " bhp="143" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 1.2 T FSi" doors="3" body="Hatch" retail="26260" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.2 T FSi S-Tronic" doors="3" body="Hatch" retail="28690" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="112" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi" doors="3" body="Hatch" retail="27830" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi S-Tronic" doors="3" body="Hatch" retail="30260" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi COD" doors="3" body="Hatch" retail="28570" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi COD S-Tronic" doors="3" body="Hatch" retail="31050" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="S3 2.0 T FSi" doors="3" body="Hatch" retail="47670" engine="4cy 1984cc " bhp="300" vrt="27" band="D" co2="162" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="S3 2.0 T FSi S-Tronic" doors="5" body="Hatch" retail="50070" engine="4cy 1984cc " bhp="300" vrt="27" band="D" co2="159" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi" doors="3" body="Hatch" retail="28210" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi S-Tronic" doors="3" body="Hatch" retail="30640" engine="4cy 1598cc " bhp="105" vrt="16" band="A3" co2="102" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi 150" doors="3" body="Hatch" retail="30020" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi 150 S-Tronic" doors="3" body="Hatch" retail="32440" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi 184" doors="3" body="Hatch" retail="32230" engine="4cy 1968cc " bhp="184" vrt="18" band="B1" co2="122" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A3 1.2 T FSi SE" doors="3" body="Hatch" retail="27610" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.2 T FSi SE S-Tronic" doors="3" body="Hatch" retail="30040" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="112" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE" doors="3" body="Hatch" retail="29180" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE S-Tronic" doors="3" body="Hatch" retail="31610" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE COD" doors="3" body="Hatch" retail="29920" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE S-Tronic COD" doors="3" body="Hatch" retail="32400" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 1.8 T FSi SE" doors="3" body="Hatch" retail="34550" engine="4cy 1795cc " bhp="180" vrt="19" band="B2" co2="135" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi SE" doors="3" body="Hatch" retail="29560" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi SE S-Tronic" doors="3" body="Hatch" retail="31990" engine="4cy 1598cc " bhp="105" vrt="16" band="A3" co2="102" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi SE 150" doors="3" body="Hatch" retail="31370" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi SE 150 S-Tronic" doors="3" body="Hatch" retail="33790" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi SE 184" doors="3" body="Hatch" retail="33580" engine="4cy 1968cc " bhp="184" vrt="18" band="B1" co2="122" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.2 T FSi" doors="5" body="Hatch" retail="27260" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.2 T FSi S-Tr" doors="5" body="Hatch" retail="29690" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="112" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.4 T FSi" doors="5" body="Hatch" retail="28830" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.4 T FSi S-Tr" doors="5" body="Hatch" retail="31460" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.4 T FSi COD" doors="5" body="Hatch" retail="29570" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.4 T FSi COD STr" doors="5" body="Hatch" retail="32050" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="S3 Sportback 2.0 T Fsi" doors="5" body="Hatch" retail="48670" engine="4cy 1984cc " bhp="300" vrt="27" band="D" co2="162" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="S3 Sportback 2.0 T FSi S-Troni" doors="3" body="Hatch" retail="51070" engine="4cy 1984cc " bhp="300" vrt="27" band="D" co2="154" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.6 TDi" doors="5" body="Hatch" retail="29210" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.6 TDi S-Tr" doors="5" body="Hatch" retail="31640" engine="4cy 1598cc " bhp="105" vrt="16" band="A3" co2="102" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 2.0 TDi 150" doors="5" body="Hatch" retail="31020" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 2.0 TDi 150 S-Tro" doors="5" body="Hatch" retail="33440" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 2.0 TDi 184" doors="5" body="Hatch" retail="33230" engine="4cy 1968cc " bhp="184" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.2 T FSi SE" doors="5" body="Hatch" retail="28610" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.2 T FSi SE S-Tr" doors="5" body="Hatch" retail="31040" engine="4cy 1197cc " bhp="105" vrt="17" band="A4" co2="112" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.4 T FSi SE" doors="5" body="Hatch" retail="30180" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.4 T FSi SE S-Tr" doors="5" body="Hatch" retail="32610" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.4 T FSi COD SE" doors="5" body="Hatch" retail="30920" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 Sptback 1.4 T FSi COD SE ST" doors="5" body="Hatch" retail="33400" engine="4cy 1395cc " bhp="140" vrt="15" band="A2" co2="109" fuel="Petrol" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.8 T FSi SE S-Tr" doors="5" body="Hatch" retail="35850" engine="4cy 1798cc " bhp="180" vrt="19" band="B2" co2="135" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.6 TDi SE" doors="5" body="Hatch" retail="30560" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 1.6 TDi SE S-Tr" doors="5" body="Hatch" retail="32990" engine="4cy 1598cc " bhp="105" vrt="16" band="A3" co2="102" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 2.0 TDi SE 150" doors="5" body="Hatch" retail="32370" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 2.0 TDi SE 150 S-" doors="5" body="Hatch" retail="34790" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 Sportback 2.0 TDi SE 184" doors="5" body="Hatch" retail="34580" engine="4cy 1968cc " bhp="184" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi" doors="4" body="Saloon" retail="29680" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi COD" doors="4" body="Saloon" retail="30420" engine="4cy 1395cc " bhp="140" vrt="16" band="A3" co2="109" fuel="Petrol" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi S-Tronic COD" doors="4" body="Saloon" retail="32900" engine="4cy 1395cc " bhp="140" vrt="16" band="A3" co2="109" fuel="Petrol" tax="190"/>
+	<vehicle manufacturer="Audi" model="S3 2.0 T FSi" doors="4" body="Saloon" retail="49520" engine="4cy 1984cc " bhp="300" vrt="27" band="D" co2="162" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="S3 2.0 T FSi S-Tronic" doors="4" body="Saloon" retail="51920" engine="4cy 1984cc " bhp="300" vrt="27" band="D" co2="159" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi" doors="4" body="Saloon" retail="30060" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi S-Tronic" doors="4" body="Saloon" retail="32490" engine="4cy 1598cc " bhp="105" vrt="16" band="A3" co2="102" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi" doors="4" body="Saloon" retail="31870" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi S-Tronic" doors="4" body="Saloon" retail="34290" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE" doors="4" body="Saloon" retail="31030" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE COD" doors="4" body="Saloon" retail="31770" engine="4cy 1395cc " bhp="140" vrt="16" band="A3" co2="109" fuel="Petrol" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE S-Tronic COD" doors="4" body="Saloon" retail="34250" engine="4cy 1395cc " bhp="140" vrt="16" band="A3" co2="109" fuel="Petrol" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 1.8 T FSi SE S-Tronic" doors="4" body="Saloon" retail="36010" engine="4cy 1798cc " bhp="180" vrt="19" band="B2" co2="135" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi SE" doors="4" body="Saloon" retail="31410" engine="4cy 1598cc " bhp="105" vrt="15" band="A2" co2="99" fuel="Diesel" tax="180"/>
+	<vehicle manufacturer="Audi" model="A3 1.6 TDi SE S-Tronic" doors="4" body="Saloon" retail="33840" engine="4cy 1598cc " bhp="105" vrt="16" band="A3" co2="102" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi SE" doors="4" body="Saloon" retail="33220" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="108" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi SE S-Tronic" doors="4" body="Saloon" retail="35840" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi" doors="2" body="Cabrio" retail="35910" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi COD" doors="2" body="Cabrio" retail="36850" engine="4cy 1395cc " bhp="140" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="S3 2.0 T FSi S-Tronic" doors="2" body="Cabrio" retail="58150" engine="4cy 1984cc " bhp="300" vrt="27" band="D" co2="165" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi" doors="2" body="Cabrio" retail="38100" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="110" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi S-Tronic" doors="2" body="Cabrio" retail="40520" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="122" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE" doors="2" body="Cabrio" retail="37260" engine="4cy 1395cc " bhp="125" vrt="17" band="A4" co2="120" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.4 T FSi SE COD" doors="2" body="Cabrio" retail="38000" engine="4cy 1395cc " bhp="140" vrt="17" band="A4" co2="114" fuel="Petrol" tax="200"/>
+	<vehicle manufacturer="Audi" model="A3 1.8 T FSi SE S-Tronic" doors="2" body="Cabrio" retail="42630" engine="4cy 1798cc " bhp="180" vrt="19" band="B2" co2="133" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi SE" doors="2" body="Cabrio" retail="39450" engine="4cy 1968cc " bhp="150" vrt="16" band="A3" co2="110" fuel="Diesel" tax="190"/>
+	<vehicle manufacturer="Audi" model="A3 2.0 TDi SE S-Tronic" doors="2" body="Cabrio" retail="41870" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="122" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 120" doors="4" body="Saloon" retail="34520" engine="4cy 1798cc " bhp="120" vrt="23" band="C" co2="151" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 120 SE" doors="4" body="Saloon" retail="36370" engine="4cy 1798cc " bhp="120" vrt="23" band="C" co2="151" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 170 SE" doors="4" body="Saloon" retail="38460" engine="4cy 1798cc " bhp="170" vrt="19" band="B2" co2="134" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 170 SE M'Tr" doors="4" body="Saloon" retail="41060" engine="4cy 1798cc " bhp="170" vrt="19" band="B2" co2="134" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="S4 3.0 T FSi quattro S-Tronic" doors="4" body="Saloon" retail="62940" engine="6cy 2995cc " bhp="333" vrt="30" band="E" co2="190" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 120" doors="4" body="Saloon" retail="36580" engine="4cy 1968cc " bhp="120" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 120 SE" doors="4" body="Saloon" retail="38430" engine="4cy 1968cc " bhp="120" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150" doors="4" body="Saloon" retail="38690" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="119" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150 M'Tronic" doors="4" body="Saloon" retail="41290" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="127" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150 SE" doors="4" body="Saloon" retail="40540" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="119" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150 SE M'Tronic" doors="4" body="Saloon" retail="43140" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="127" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 177 SE" doors="4" body="Saloon" retail="43400" engine="4cy 1968cc " bhp="177" vrt="17" band="A4" co2="120" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 120" doors="5" body="Estate" retail="36920" engine="4cy 1798cc " bhp="120" vrt="23" band="C" co2="154" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 120 SE" doors="5" body="Estate" retail="38770" engine="4cy 1798cc " bhp="120" vrt="23" band="C" co2="154" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 170 SE" doors="5" body="Estate" retail="40860" engine="4cy 1798cc " bhp="170" vrt="23" band="C" co2="141" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 1.8 T FSi 170 SE M'Tronic" doors="5" body="Estate" retail="43460" engine="4cy 1798cc " bhp="170" vrt="19" band="B2" co2="139" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="S4 3.0 T FSi quattro S-Tronic" doors="5" body="Estate" retail="65340" engine="6cy 2995cc " bhp="333" vrt="34" band="F" co2="197" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 120" doors="5" body="Estate" retail="38980" engine="4cy 1968cc " bhp="120" vrt="18" band="B1" co2="123" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 120 SE" doors="5" body="Estate" retail="40830" engine="4cy 1968cc " bhp="120" vrt="18" band="B1" co2="123" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 136" doors="5" body="Estate" retail="39920" engine="4cy 1968cc " bhp="136" vrt="17" band="A4" co2="116" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 136 SE" doors="5" body="Estate" retail="41770" engine="4cy 1968cc " bhp="136" vrt="17" band="A4" co2="116" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150" doors="5" body="Estate" retail="41090" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="124" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150 M'Tronic" doors="5" body="Estate" retail="43690" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="129" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150 SE" doors="5" body="Estate" retail="42940" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="124" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 150 SE M'Tronic" doors="5" body="Estate" retail="45540" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="129" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 2.0 TDi 177 SE" doors="5" body="Estate" retail="45800" engine="4cy 1968cc " bhp="177" vrt="18" band="B1" co2="126" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A4 Allroad 2.0 TDi 150 SE" doors="5" body="Estate" retail="48190" engine="4cy 1968cc " bhp="150" vrt="23" band="C" co2="152" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 Allroad 2.0 TDi 177 SE" doors="5" body="Estate" retail="51050" engine="4cy 1968cc " bhp="177" vrt="23" band="C" co2="153" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 Allroad 2.0 TDi 177 SE S-Tr" doors="5" body="Estate" retail="53650" engine="4cy 1968cc " bhp="177" vrt="23" band="C" co2="156" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="A4 Allroad 3.0 TDi SE S-Tronic" doors="5" body="Estate" retail="62880" engine="6cy 2967cc " bhp="245" vrt="27" band="D" co2="161" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="TT 1.8 TFSi" doors="2" body="Coupe" retail="42870" engine="4cy 1798cc " bhp="160" vrt="23" band="C" co2="149" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="TT 1.8 TFSi S-Tronic" doors="2" body="Coupe" retail="45470" engine="4cy 1798cc " bhp="160" vrt="23" band="C" co2="147" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="TT 2.0 TFSi quattro S-Tronic" doors="2" body="Coupe" retail="51700" engine="4cy 1984cc " bhp="211" vrt="27" band="D" co2="169" fuel="Petrol" tax="570"/>
+	<vehicle manufacturer="Audi" model="TT 2.0 TDi quattro" doors="2" body="Coupe" retail="47590" engine="4cy 1968cc " bhp="170" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="TT 2.0 TDi quattro S-Tronic" doors="2" body="Coupe" retail="50190" engine="4cy 1968cc " bhp="170" vrt="23" band="C" co2="144" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="TTRS 2.5 TFSi quattro" doors="2" body="Coupe" retail="83440" engine="5cy 2480cc " bhp="340" vrt="34" band="F" co2="214" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="TTRS 2.5 TFSi quattro S-Tronic" doors="2" body="Coupe" retail="86040" engine="5cy 2480cc " bhp="340" vrt="34" band="F" co2="197" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="TT 1.8 TFSi" doors="2" body="Rd'ster" retail="47870" engine="4cy 1798cc " bhp="160" vrt="23" band="C" co2="152" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="TT 1.8 TFSi S-Tronic" doors="2" body="Rd'ster" retail="50470" engine="4cy 1798cc " bhp="160" vrt="23" band="C" co2="152" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="TT 2.0 TFSi S-Tronic quattro" doors="2" body="Rd'ster" retail="56700" engine="4cy 1984cc " bhp="211" vrt="30" band="E" co2="172" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="TT 2.0 TDi quattro" doors="2" body="Rd'ster" retail="52590" engine="4cy 1968cc " bhp="170" vrt="23" band="C" co2="144" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="TT 2.0 TDi quattro S-Tronic" doors="2" body="Rd'ster" retail="55190" engine="4cy 1968cc " bhp="170" vrt="23" band="C" co2="146" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="TTRS 2.5 TFSi quattro" doors="2" body="Rd'ster" retail="88440" engine="5cy 2480cc " bhp="340" vrt="34" band="F" co2="221" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="TTRS 2.5 TFSi quattro S-Tronic" doors="2" body="Rd'ster" retail="91040" engine="5cy 2480cc " bhp="340" vrt="34" band="F" co2="199" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TFSi SE M'Tr" doors="5" body="Hatch" retail="52380" engine="4cy 1984cc " bhp="211" vrt="19" band="B2" co2="139" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="S5 Sportback 3.0 TFSi qtr S-Tr" doors="5" body="Hatch" retail="75640" engine="V6cy 2995cc " bhp="333" vrt="30" band="E" co2="190" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 136" doors="5" body="Hatch" retail="41260" engine="4cy 1968cc " bhp="136" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 136 SE" doors="5" body="Hatch" retail="43760" engine="4cy 1968cc " bhp="136" vrt="17" band="A4" co2="117" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 150" doors="5" body="Hatch" retail="42050" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="119" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 150 SE" doors="5" body="Hatch" retail="44550" engine="4cy 1968cc " bhp="150" vrt="17" band="A4" co2="119" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 150 M'Tr" doors="5" body="Hatch" retail="44650" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="127" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 150SE M'T" doors="5" body="Hatch" retail="47150" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="127" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 177 SE" doors="5" body="Hatch" retail="47410" engine="4cy 1968cc " bhp="177" vrt="17" band="A4" co2="120" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 2.0 TDi 177SE M'T" doors="5" body="Hatch" retail="50010" engine="4cy 1968cc " bhp="177" vrt="18" band="B1" co2="127" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 Sportback 3.0 TDi SE M'Tr" doors="5" body="Hatch" retail="52610" engine="V6cy 2967cc " bhp="204" vrt="18" band="B1" co2="129" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 1.8 TFSi" doors="3" body="Coupe" retail="43560" engine="4cy 1798cc " bhp="170" vrt="19" band="B2" co2="134" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="A5 1.8 TFSi SE" doors="3" body="Coupe" retail="46060" engine="4cy 1798cc " bhp="170" vrt="19" band="B2" co2="134" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="S5 3.0 TFSi quattro S-Tronic" doors="3" body="Coupe" retail="79680" engine="V6cy 2995cc " bhp="333" vrt="30" band="E" co2="189" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A5 2.0 TDi" doors="3" body="Coupe" retail="46150" engine="4cy 1968cc " bhp="177" vrt="17" band="A4" co2="120" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A5 2.0 TDi M'Tronic" doors="3" body="Coupe" retail="48750" engine="4cy 1968cc " bhp="177" vrt="18" band="B1" co2="123" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 2.0 TDi SE" doors="3" body="Coupe" retail="48650" engine="4cy 1968cc " bhp="177" vrt="17" band="A4" co2="120" fuel="Diesel" tax="200"/>
+	<vehicle manufacturer="Audi" model="A5 2.0 TDi SE M'Tronic" doors="3" body="Coupe" retail="51250" engine="4cy 1968cc " bhp="177" vrt="18" band="B1" co2="123" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 1.8 TFSi SE" doors="2" body="Cabrio" retail="53060" engine="4cy 1798cc " bhp="170" vrt="23" band="C" co2="143" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A5 1.8 TFSi SE M'Tronic" doors="2" body="Cabrio" retail="55660" engine="4cy 1798cc " bhp="170" vrt="23" band="C" co2="143" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="S5 3.0 TFSi quattro S-Tronic" doors="2" body="Cabrio" retail="86680" engine="V6cy 2995cc " bhp="333" vrt="34" band="F" co2="199" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="A5 2.0 TDi 150 SE" doors="2" body="Cabrio" retail="54890" engine="4cy 1968cc " bhp="150" vrt="18" band="B1" co2="124" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 2.0 TDi 177 SE" doors="2" body="Cabrio" retail="55650" engine="4cy 1968cc " bhp="177" vrt="18" band="B1" co2="127" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A5 2.0 TDi 177 SE M'Tronic" doors="2" body="Cabrio" retail="58250" engine="4cy 1968cc " bhp="177" vrt="19" band="B2" co2="132" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TFSi SE" doors="4" body="Saloon" retail="44160" engine="4cy 1984cc " bhp="180" vrt="23" band="C" co2="151" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi SE" doors="4" body="Saloon" retail="44790" engine="4cy 1968cc " bhp="177" vrt="18" band="B1" co2="129" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi SE M'Tronic" doors="4" body="Saloon" retail="47590" engine="4cy 1968cc " bhp="177" vrt="19" band="B2" co2="132" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 3.0 TDi SE M'Tronic" doors="4" body="Saloon" retail="54350" engine="V6cy 2967cc " bhp="204" vrt="19" band="B2" co2="133" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TFSi S Line" doors="4" body="Saloon" retail="46310" engine="4cy 1984cc " bhp="180" vrt="23" band="C" co2="151" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi S Line" doors="4" body="Saloon" retail="46890" engine="4cy 1968cc " bhp="177" vrt="18" band="B1" co2="129" fuel="Diesel" tax="270"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi S Line M'Tronic" doors="4" body="Saloon" retail="49690" engine="4cy 1968cc " bhp="177" vrt="19" band="B2" co2="132" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 3.0 TDi S Line M'Tronic" doors="4" body="Saloon" retail="56450" engine="V6cy 2967cc " bhp="204" vrt="19" band="B2" co2="133" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TFSi SE" doors="5" body="Estate" retail="47310" engine="4cy 1984cc " bhp="180" vrt="23" band="C" co2="154" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi SE" doors="5" body="Estate" retail="47940" engine="4cy 1968cc " bhp="177" vrt="19" band="B2" co2="132" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi SE M'Tronic" doors="5" body="Estate" retail="50740" engine="4cy 1968cc " bhp="177" vrt="19" band="B2" co2="135" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 3.0 TDi SE M'Tronic" doors="5" body="Estate" retail="57500" engine="V6cy 2967cc " bhp="204" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TFSi S Line" doors="5" body="Estate" retail="49460" engine="4cy 1984cc " bhp="180" vrt="23" band="C" co2="154" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi S Line" doors="5" body="Estate" retail="50040" engine="4cy 1968cc " bhp="177" vrt="19" band="B2" co2="132" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 2.0 TDi S Line M'Tronic" doors="5" body="Estate" retail="52840" engine="4cy 1968cc " bhp="177" vrt="19" band="B2" co2="135" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 3.0 TDi S Line M'Tronic" doors="5" body="Estate" retail="59600" engine="V6cy 2967cc " bhp="204" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A6 Allroad 3.0 TFSi SE tipt" doors="5" body="Estate" retail="75480" engine="V6cy 2995cc " bhp="300" vrt="34" band="F" co2="206" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="A6 Allroad 3.0 TDi 204 SE S-Tr" doors="5" body="Estate" retail="65840" engine="V6cy 2967cc " bhp="204" vrt="27" band="D" co2="159" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="A6 Allroad 3.0 TDi 145 SE S-Tr" doors="5" body="Estate" retail="69750" engine="V6cy 2967cc " bhp="245" vrt="27" band="D" co2="165" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="A6 Allroad 3.0 TDi 313 SE tipt" doors="5" body="Estate" retail="79120" engine="V6cy 2967cc " bhp="313" vrt="30" band="E" co2="176" fuel="Diesel" tax="750"/>
+	<vehicle manufacturer="Audi" model="A7 2.8 FSi M'Tronic" doors="5" body="Coupe" retail="64090" engine="V6cy 2773cc " bhp="204" vrt="30" band="E" co2="172" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TFSi quattro S-Tronic" doors="5" body="Coupe" retail="79110" engine="V6cy 2995cc " bhp="300" vrt="30" band="E" co2="190" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TDi M'Tronic" doors="5" body="Coupe" retail="66710" engine="V6cy 2967cc " bhp="204" vrt="19" band="B2" co2="135" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TDi qtr 204 S-Tronic" doors="5" body="Coupe" retail="69510" engine="V6cy 2967cc " bhp="204" vrt="23" band="C" co2="152" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TDi qtr 245 S-Tronic" doors="5" body="Coupe" retail="73310" engine="V6cy 2967cc " bhp="245" vrt="27" band="D" co2="156" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="S7 3.0 Bi-TDi qtro tipt" doors="5" body="Coupe" retail="82690" engine="V6cy 2967cc " bhp="313" vrt="27" band="D" co2="169" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="A7 2.8 FSi M'Tronic S Line" doors="5" body="Coupe" retail="66990" engine="V6cy 2773cc " bhp="204" vrt="30" band="E" co2="172" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TFSi quattro S-Tr Sline" doors="5" body="Coupe" retail="82010" engine="V6cy 2995cc " bhp="300" vrt="30" band="E" co2="190" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TDi M'Tronic S Line" doors="5" body="Coupe" retail="69610" engine="V6cy 2967cc " bhp="204" vrt="19" band="B2" co2="135" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TDi qtr 204 S-Tr S Line" doors="5" body="Coupe" retail="72410" engine="V6cy 2967cc " bhp="204" vrt="23" band="C" co2="152" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 TDi qtr 245 S-Tr S Line" doors="5" body="Coupe" retail="76210" engine="V6cy 2967cc " bhp="245" vrt="27" band="D" co2="156" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="A7 3.0 Bi-TDi qtro tipt S Line" doors="5" body="Coupe" retail="85590" engine="V6cy 2967cc " bhp="313" vrt="27" band="D" co2="169" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TFSi qtt SE Tipt" doors="4" body="Saloon" retail="92000" engine="V6cy 2995cc " bhp="310" vrt="30" band="E" co2="183" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TFSi qtt Exec+ Tipt" doors="4" body="Saloon" retail="96100" engine="V6cy 2995cc " bhp="310" vrt="30" band="E" co2="183" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TFSi qtt SE Tipt LWB" doors="4" body="Saloon" retail="96500" engine="V6cy 2995cc " bhp="310" vrt="30" band="E" co2="184" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TFSi qtt Exec+ Tipt LWB" doors="4" body="Saloon" retail="100600" engine="V6cy 2995cc " bhp="310" vrt="30" band="E" co2="184" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TDi qtt SE Tipt" doors="4" body="Saloon" retail="93280" engine="V6cy 2967cc " bhp="260" vrt="23" band="C" co2="155" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TDi qtt Exec+ Tipt" doors="4" body="Saloon" retail="97380" engine="V6cy 2967cc " bhp="260" vrt="23" band="C" co2="155" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TDi qtt SE Tipt LWB" doors="4" body="Saloon" retail="97780" engine="V6cy 2967cc " bhp="260" vrt="27" band="D" co2="158" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="A8 3.0 TDi qtt Exec+ Tipt LWB" doors="4" body="Saloon" retail="101880" engine="V6cy 2967cc " bhp="260" vrt="27" band="D" co2="158" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi SE" doors="5" body="Estate" retail="34360" engine="4cy 1395cc " bhp="150" vrt="19" band="B2" co2="137" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi SE S-Tronic" doors="5" body="Estate" retail="36760" engine="4cy 1395cc " bhp="150" vrt="23" band="C" co2="145" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TFSi SE quattro" doors="5" body="Estate" retail="38560" engine="4cy 1984cc " bhp="170" vrt="30" band="E" co2="172" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 140" doors="5" body="Estate" retail="36060" engine="4cy 1968cc " bhp="140" vrt="19" band="B2" co2="137" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 140 q'tro" doors="5" body="Estate" retail="38460" engine="4cy 1968cc " bhp="140" vrt="23" band="C" co2="149" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 140 S-Tr q'tro" doors="5" body="Estate" retail="40860" engine="4cy 1968cc " bhp="140" vrt="23" band="C" co2="152" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 177 S-Tr q'tro" doors="5" body="Estate" retail="45850" engine="4cy 1968cc " bhp="177" vrt="27" band="D" co2="158" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi S-Line" doors="5" body="Estate" retail="37660" engine="4cy 1395cc " bhp="150" vrt="19" band="B2" co2="137" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi S-Line S-Tronic" doors="5" body="Estate" retail="40060" engine="4cy 1395cc " bhp="150" vrt="23" band="C" co2="145" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TFSi S Line quattro" doors="5" body="Estate" retail="41860" engine="4cy 1984cc " bhp="170" vrt="30" band="E" co2="172" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S Line 140" doors="5" body="Estate" retail="39360" engine="4cy 1968cc " bhp="140" vrt="19" band="B2" co2="137" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S Line 140 q'tro" doors="5" body="Estate" retail="41760" engine="4cy 1968cc " bhp="140" vrt="23" band="C" co2="149" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S Line 140 S-Tr q't" doors="5" body="Estate" retail="44160" engine="4cy 1968cc " bhp="140" vrt="23" band="C" co2="152" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S Line 177 S-Tr q't" doors="5" body="Estate" retail="49150" engine="4cy 1968cc " bhp="177" vrt="27" band="D" co2="158" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 143" doors="5" body="Estate" retail="41250" engine="4cy 1968cc " bhp="143" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 143 q'tro" doors="5" body="Estate" retail="43850" engine="4cy 1968cc " bhp="143" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 177 q'tro" doors="5" body="Estate" retail="45900" engine="4cy 1968cc " bhp="177" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 177 q'tro S-Tr" doors="5" body="Estate" retail="48500" engine="4cy 1968cc " bhp="177" vrt="27" band="D" co2="159" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TFSi 225 SE q'tro tipt" doors="5" body="Estate" retail="56770" engine="4cy 1984cc " bhp="225" vrt="30" band="E" co2="184" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 143" doors="5" body="Estate" retail="43750" engine="4cy 1968cc " bhp="143" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 143 q'tro" doors="5" body="Estate" retail="46350" engine="4cy 1968cc " bhp="143" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 177 q'tro" doors="5" body="Estate" retail="48400" engine="4cy 1968cc " bhp="177" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 177 q'tro S-Tr" doors="5" body="Estate" retail="51000" engine="4cy 1984cc " bhp="177" vrt="27" band="D" co2="159" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TFSi 225 S Line q'tro t" doors="5" body="Estate" retail="60155" engine="4cy 1984cc " bhp="225" vrt="30" band="E" co2="184" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S Line 143" doors="5" body="Estate" retail="47135" engine="4cy 1968cc " bhp="143" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S Line 143 q'tro" doors="5" body="Estate" retail="49735" engine="4cy 1968cc " bhp="143" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S Line 177 q'tro" doors="5" body="Estate" retail="51785" engine="4cy 1968cc " bhp="177" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S Line 177 q'tro S-" doors="5" body="Estate" retail="54385" engine="4cy 1968cc " bhp="177" vrt="27" band="D" co2="159" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="SQ5 3.0 TDi SE 313 q'tro tipt" doors="5" body="Estate" retail="74050" engine="V6cy 2967cc " bhp="313" vrt="30" band="E" co2="179" fuel="Diesel" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi qtr DPF SE 204" doors="5" body="Estate" retail="77580" engine="V6cy 2967cc " bhp="204" vrt="30" band="E" co2="189" fuel="Diesel" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi qtr DPF SE 245" doors="5" body="Estate" retail="80300" engine="V6cy 2967cc " bhp="245" vrt="34" band="F" co2="195" fuel="Diesel" tax="1200"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi qtr DPF SLine 204" doors="5" body="Estate" retail="79730" engine="V6cy 2967cc " bhp="204" vrt="30" band="E" co2="189" fuel="Diesel" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi qtr DPF SLine 245" doors="5" body="Estate" retail="82450" engine="V6cy 2967cc " bhp="245" vrt="34" band="F" co2="195" fuel="Diesel" tax="1200"/>
+</ncars>

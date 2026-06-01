@@ -1,0 +1,199 @@
+.grid-view-loading
+{
+	background:url(loading.gif) no-repeat;
+}
+
+.grid-view table.items
+{
+    font-size:0.8em;
+        border: 1px solid #555555;
+        border-right: 3px solid #555555;
+        border-bottom: 3px solid #555555;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;      
+	background: white;
+	
+	width: 100%;
+	border: 1px #D0E3EF solid;
+}
+
+.grid-view table.items th, .grid-view table.items td
+{
+	font-size: 1.0em;
+	border: 1px white solid;
+	padding: 0.3em;
+        text-align: center;
+}
+
+.grid-view table.items th
+{
+	color: #000000;
+	/*background: url("images/bg.gif") repeat-x scroll left top white;/**/
+        background-color: #E9E9F4;
+	text-align: center;
+}
+
+.grid-view table.items th a
+{
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.grid-view table.items th a:hover
+{
+	color: #57595b;
+}
+
+.grid-view table.items th a.asc
+{
+	background:url(up.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items th a.desc
+{
+	background:url(down.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items tr.even
+{
+	background: #F8F8F8;
+}
+
+.grid-view table.items tr.odd
+{
+	background: #E5F1F4;
+}
+
+.grid-view table.items tr.selected
+{
+	background: #BCE774;
+}
+
+.grid-view table.items tr:hover
+{
+	background: #ECFBD4;
+}
+
+.grid-view .link-column img
+{
+	border: 0;
+}
+
+.grid-view .button-column
+{
+	text-align: center;
+	width: 60px;
+}
+
+.grid-view .button-column img
+{
+	border: 0;
+}
+
+.grid-view .checkbox-column
+{
+	width: 15px;
+}
+
+.grid-view .summary
+{
+	margin: 0 0 5px 0;
+	text-align: right;
+}
+
+.grid-view .pager
+{
+	margin: 5px 0 0 0;
+	text-align: right;
+}
+
+.grid-view .empty
+{
+	font-style: italic;
+}
+
+.grid-view .filters input,
+.grid-view .filters select
+{
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+
+
+/* DetailsView */
+table.detail-view .null
+{
+	color: pink;
+}
+
+table.detail-view
+{
+	background: white;	
+	width: 100%;
+	margin: 0;
+        border: 1px solid #D0E3EF;
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;        
+}
+
+table.detail-view th, table.detail-view td
+{
+	font-size: 1.0em;
+	border: 1px white solid;
+	padding: 0.3em 0.6em;
+	vertical-align: top;
+}
+
+table.detail-view th
+{
+	text-align: right;
+	width: 160px;
+}
+
+table.detail-view tr.odd
+{
+	background:#E5F1F4;
+}
+
+table.detail-view tr.even
+{
+	background:#F8F8F8;
+}
+
+table.detail-view tr.odd th
+{
+    color: #000000;
+}
+
+table.detail-view tr.even th
+{
+    color: #000000;
+}
+
+.detailsTitle { background-color:#E9E9F4;
+                margin:0px;
+                padding:5px 10px;
+                -webkit-border-top-left-radius: 10px;
+                -webkit-border-top-right-radius: 10px;
+                -moz-border-radius-topleft: 10px;
+                -moz-border-radius-topright: 10px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border: 1px solid #D0E3EF;
+                text-align: center;                
+}
+
+.grid-view table.items tr.red
+{
+	background: #f24040;
+        color: #ffffff;
+}

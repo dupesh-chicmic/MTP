@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>280</man>
+    <cell>Fiorino 1.3MJet 75 Base Eu4</cell>
+    <cell>Van SWB H1</cell>
+    <cell>12983</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Fiorino 1.3MJet 75 SX Eu4</cell>
+    <cell>Van SWB H1</cell>
+    <cell>13740</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Fiorino 1.3MJet 75 Base Eu5</cell>
+    <cell>Van SWB H1</cell>
+    <cell>13552</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Fiorino 1.3MJet 75 SX Eu5</cell>
+    <cell>Van SWB H1</cell>
+    <cell>14469</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Fiorino 1.3MJet 95 Base Eu5</cell>
+    <cell>Van SWB H1</cell>
+    <cell>14014</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Fiorino 1.3MJet 95 SX Eu5</cell>
+    <cell>Van SWB H1</cell>
+    <cell>14932</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.3 MJet Base</cell>
+    <cell>Van</cell>
+    <cell>15372</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.3 MJet SX</cell>
+    <cell>Van</cell>
+    <cell>16388</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.3 MJet Base</cell>
+    <cell>Maxi Van</cell>
+    <cell>17146</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.3 MJet SX</cell>
+    <cell>Maxi Van</cell>
+    <cell>18162</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.6 MJet Base</cell>
+    <cell>Van</cell>
+    <cell>17405</cell>
+    <cell />
+    <cell>1596</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.6 MJet SX</cell>
+    <cell>Van</cell>
+    <cell>17710</cell>
+    <cell />
+    <cell>1596</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.6 MJet Base</cell>
+    <cell>Maxi Van</cell>
+    <cell>19179</cell>
+    <cell />
+    <cell>1596</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.6 MJet SX</cell>
+    <cell>Maxi Van</cell>
+    <cell>20195</cell>
+    <cell />
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.3 MJet</cell>
+    <cell>Combi 5d</cell>
+    <cell>18724</cell>
+    <cell />
+    <cell>1248</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 1.6 MJet</cell>
+    <cell>Combi 5d</cell>
+    <cell>19740</cell>
+    <cell />
+    <cell>1596</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Doblo Cargo 2.0 MJet</cell>
+    <cell>Maxi Combi 5d</cell>
+    <cell>20758</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 1.6 JTD Business</cell>
+    <cell>Van SWB H1</cell>
+    <cell>17273</cell>
+    <cell>2661</cell>
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 1.6 MJet Comfort 90</cell>
+    <cell>Van SWB H1(1000kg)</cell>
+    <cell>20271</cell>
+    <cell>2661</cell>
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 1.6 MJet Comfort 90</cell>
+    <cell>Van SWB H1(1200Kg)</cell>
+    <cell>21847</cell>
+    <cell>2661</cell>
+    <cell>1560</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 2.0 MJet Comfort 128</cell>
+    <cell>Van SWB H1</cell>
+    <cell>22157</cell>
+    <cell>2902</cell>
+    <cell>1997</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 2.0 MJet Comfort 128</cell>
+    <cell>Van LWB H1</cell>
+    <cell>22919</cell>
+    <cell>2932</cell>
+    <cell>1997</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 2.0 MJet Comfort 128</cell>
+    <cell>Van LWB H2</cell>
+    <cell>24292</cell>
+    <cell>2946</cell>
+    <cell>1997</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 2.0 MJet 128</cell>
+    <cell>Combi 5d</cell>
+    <cell>38578</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell>C</cell>
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>186</cell>
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Scudo 2.0 MJet 128</cell>
+    <cell>Combi 5d Panorama</cell>
+    <cell>40305</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell>C</cell>
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>186</cell>
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 110</cell>
+    <cell>Van SWB H1</cell>
+    <cell>20322</cell>
+    <cell>3000</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 130</cell>
+    <cell>Van SWB H1</cell>
+    <cell>23936</cell>
+    <cell>3000</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 110</cell>
+    <cell>Van MWB H1 (750Kg)</cell>
+    <cell>23936</cell>
+    <cell>3000</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 130</cell>
+    <cell>Van MWB H1 (750Kg)</cell>
+    <cell>24546</cell>
+    <cell>3000</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 110</cell>
+    <cell>Van MWB H1 (1000Kg)</cell>
+    <cell>24444</cell>
+    <cell>3300</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 130</cell>
+    <cell>Van MWB H1 (1000Kg)</cell>
+    <cell>25257</cell>
+    <cell>3300</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 130</cell>
+    <cell>Van MWB H2</cell>
+    <cell>26274</cell>
+    <cell>3300</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 110</cell>
+    <cell>Van LWB H2</cell>
+    <cell>26376</cell>
+    <cell>3300</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 3.0 MJet 180</cell>
+    <cell>Van LWB H2</cell>
+    <cell>30137</cell>
+    <cell>3300</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 110</cell>
+    <cell>Van LWB H2</cell>
+    <cell>27087</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 130</cell>
+    <cell>Van LWB H2</cell>
+    <cell>27900</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 2.3 MJet II 150</cell>
+    <cell>Van LWB H2</cell>
+    <cell>29324</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 250 3.0 MJet 180</cell>
+    <cell>Van LWB H2</cell>
+    <cell>31052</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 2.3 MJet II 130</cell>
+    <cell>Van LWB H2</cell>
+    <cell>28917</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 2.3 MJet II 150</cell>
+    <cell>Van LWB XL H2</cell>
+    <cell>31052</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 3.0 MJet 180</cell>
+    <cell>Van LWB XL H2</cell>
+    <cell>32780</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 2.3 MJet II 150</cell>
+    <cell>Van LWB XL H3</cell>
+    <cell>31763</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 3.0 MJet 180</cell>
+    <cell>Van LWB XL H3</cell>
+    <cell>33491</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 2.3 MJet II 130</cell>
+    <cell>Ch.Cab MWB</cell>
+    <cell>25969</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 2.3 MJet II 150</cell>
+    <cell>Ch.Cab LWB</cell>
+    <cell>28307</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 3.0 MJet 180</cell>
+    <cell>Ch.Cab LWB</cell>
+    <cell>30035</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 2.3 MJet II 150</cell>
+    <cell>Ch.Cab LWB XL</cell>
+    <cell>29019</cell>
+    <cell>3500</cell>
+    <cell>2287</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>280</man>
+    <cell>Ducato 251 3.0 MJet 180</cell>
+    <cell>Ch.Cab LWB XL</cell>
+    <cell>30747</cell>
+    <cell>3500</cell>
+    <cell>2999</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+</rows>

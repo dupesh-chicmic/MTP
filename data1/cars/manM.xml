@@ -1,0 +1,32 @@
+<manufacturers>
+	<make distributor="Alfa Romeo" effective="-/7/13" file="Alfa Romeo.xml"/>
+	<make distributor="Audi" effective="-/4/14" file="Audi.xml"/>
+	<make distributor="BMW" effective="-/7/14" file="BMW.xml"/>
+	<make distributor="Chrysler" effective="-/1/13" file="Chrysler.xml"/>
+	<make distributor="Citroen" effective="1/4/14" file="Citroen.xml"/>
+	<make distributor="Dacia" effective="1/1/14" file="Dacia.xml"/>
+	<make distributor="Fiat" effective="1/4/14" file="Fiat.xml"/>
+	<make distributor="Ford" effective="25/4/14" file="Ford.xml"/>
+	<make distributor="Honda" effective="15/5/14" file="Honda.xml"/>
+	<make distributor="Hyundai" effective="-/6/14" file="Hyundai.xml"/>
+	<make distributor="Jaguar" effective="-/11/13" file="Jaguar.xml"/>
+	<make distributor="Kia" effective="-/6/14" file="Kia.xml"/>
+	<make distributor="Land Rover" effective="-/1/14" file="Land Rover.xml"/>
+	<make distributor="Lexus" effective="1/11/13" file="Lexus.xml"/>
+	<make distributor="Mazda" effective="-/4/14" file="Mazda.xml"/>
+	<make distributor="Mercedes" effective="28/5/14" file="Mercedes.xml"/>
+	<make distributor="Mini" effective="-/3/14" file="Mini.xml"/>
+	<make distributor="Mitsubishi" effective="-/12/13" file="Mitsubishi.xml"/>
+	<make distributor="Nissan" effective="-/1/14" file="Nissan.xml"/>
+	<make distributor="Opel" effective="1/4/14" file="Opel.xml"/>
+	<make distributor="Peugeot" effective="17/2/14" file="Peugeot.xml"/>
+	<make distributor="Renault" effective="1/5/14" file="Renault.xml"/>
+	<make distributor="Seat" effective="-/6/14" file="Seat.xml"/>
+	<make distributor="Skoda" effective="1/4/14" file="Skoda.xml"/>
+	<make distributor="Ssangyong" effective="-/6/14" file="Ssangyong.xml"/>
+	<make distributor="Subaru" effective="10/3/14" file="Subaru.xml"/>
+	<make distributor="Suzuki" effective="-/5/14" file="Suzuki.xml"/>
+	<make distributor="Toyota" effective="1/4/14" file="Toyota.xml"/>
+	<make distributor="Volkswagen" effective="28/5/14" file="Volkswagen.xml"/>
+	<make distributor="Volvo" effective="12/5/14" file="Volvo.xml"/>
+</manufacturers>

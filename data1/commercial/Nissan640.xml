@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>640</man>
+    <cell>Primastar 2.0 Dsl Fleet</cell>
+    <cell>Van SWB 90</cell>
+    <cell>18375</cell>
+    <cell>2700</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Primastar 2.0 Dsl Plus</cell>
+    <cell>Van SWB 90</cell>
+    <cell>20475</cell>
+    <cell>2700</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Primastar 2.0 Dsl Plus</cell>
+    <cell>Van SWB 115</cell>
+    <cell>21275</cell>
+    <cell>2700</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Primastar 2.0 Dsl Plus</cell>
+    <cell>Van LWB 90</cell>
+    <cell>21875</cell>
+    <cell>2700</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Primastar 2.0 Dsl Plus</cell>
+    <cell>Van LWB 115</cell>
+    <cell>22675</cell>
+    <cell>2940</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Primastar 2.0 Dsl Plus</cell>
+    <cell>Van LWB 115 HR</cell>
+    <cell>23375</cell>
+    <cell>2940</cell>
+    <cell>1995</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 200 1.5 dCi 110</cell>
+    <cell>Van</cell>
+    <cell>15650</cell>
+    <cell />
+    <cell>1461</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L1H1 100</cell>
+    <cell>Van FWD</cell>
+    <cell>21875</cell>
+    <cell>2800</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L1H1 125</cell>
+    <cell>Van FWD</cell>
+    <cell>22875</cell>
+    <cell>2800</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L2H2 100</cell>
+    <cell>Van FWD</cell>
+    <cell>23675</cell>
+    <cell>3300</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L2H2 125</cell>
+    <cell>Van FWD</cell>
+    <cell>25075</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L2H2 150</cell>
+    <cell>Van FWD</cell>
+    <cell>26075</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H2 125</cell>
+    <cell>Van FWD</cell>
+    <cell>25775</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H2 150</cell>
+    <cell>Van FWD</cell>
+    <cell>26775</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H3 125</cell>
+    <cell>Van FWD</cell>
+    <cell>26475</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H3 150</cell>
+    <cell>Van FWD</cell>
+    <cell>27475</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H2 125</cell>
+    <cell>Van RWD SW</cell>
+    <cell>26275</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H2 150</cell>
+    <cell>Van RWD SW</cell>
+    <cell>27275</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H3 125</cell>
+    <cell>Van RWD SW</cell>
+    <cell>26975</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L3H3 150</cell>
+    <cell>Van RWD SW</cell>
+    <cell>27975</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L4H2 125</cell>
+    <cell>Van RWD DRW</cell>
+    <cell>29275</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L4H2 150</cell>
+    <cell>Van RWD DRW</cell>
+    <cell>30275</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L4H3 125</cell>
+    <cell>Van RWD DRW</cell>
+    <cell>29975</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>NV 400 2.3 Dsl L4H3 150</cell>
+    <cell>Van RWD DRW</cell>
+    <cell>30975</cell>
+    <cell>3500</cell>
+    <cell>2298</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Navara 2.5 Dsl XE</cell>
+    <cell>King Cab</cell>
+    <cell>25200</cell>
+    <cell>2805</cell>
+    <cell>2488</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Navara 2.5 Dsl XE</cell>
+    <cell>Double Cab</cell>
+    <cell>31200</cell>
+    <cell>2805</cell>
+    <cell>2488</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Navara 2.5 Dsl LE</cell>
+    <cell>Double Cab</cell>
+    <cell>35450</cell>
+    <cell>2805</cell>
+    <cell>2488</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>Navara 2.5 Dsl LE Auto</cell>
+    <cell>Double Cab</cell>
+    <cell>37150</cell>
+    <cell>2805</cell>
+    <cell>2488</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>X-Trail 2.0 Dsl XE</cell>
+    <cell>Estate 5d 4x2</cell>
+    <cell>32145</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell>B</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>159</cell>
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>X-Trail 2.0 Dsl LE 173</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>41145</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell>B</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>168</cell>
+    <cell />
+  </row>
+  <row>
+    <man>640</man>
+    <cell>X-Trail 2.0 Dsl LE 150 Auto</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>43945</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell>B</cell>
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>188</cell>
+    <cell />
+  </row>
+</rows>

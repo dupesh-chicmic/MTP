@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>620</man>
+    <cell>L200 2.5 Dsl</cell>
+    <cell>Dbl.Cab 4X4</cell>
+    <cell>32750</cell>
+    <cell />
+    <cell>2477</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>L200 2.5 Dsl Auto</cell>
+    <cell>Dbl.Cab 4X4</cell>
+    <cell>35950</cell>
+    <cell />
+    <cell>2477</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>ASX 1.8 DID Instyle</cell>
+    <cell>Comm 5d</cell>
+    <cell>26450</cell>
+    <cell />
+    <cell>1798</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>ASX 1.6 MIVEC Instyle</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>23950</cell>
+    <cell />
+    <cell>1590</cell>
+    <cell>C</cell>
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>137</cell>
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>ASX 1.8 DID Instyle</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>26950</cell>
+    <cell />
+    <cell>1798</cell>
+    <cell>C</cell>
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>134</cell>
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Outlander 2.2 DID</cell>
+    <cell>Comm 5d 4WD</cell>
+    <cell>35950</cell>
+    <cell />
+    <cell>2268</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Outlander 2.2 DID Auto</cell>
+    <cell>Comm 5d 4WD</cell>
+    <cell>37450</cell>
+    <cell />
+    <cell>2268</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Outlander 2.2 DID 7S</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>34950</cell>
+    <cell />
+    <cell>2268</cell>
+    <cell>C</cell>
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>123</cell>
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Outlander 2.2 DID 7S</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>36950</cell>
+    <cell />
+    <cell>2268</cell>
+    <cell>C</cell>
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>140</cell>
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Outlander 2.2 DID 7S Auto</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>39950</cell>
+    <cell />
+    <cell>2268</cell>
+    <cell>C</cell>
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>153</cell>
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Pajero 3.2 DID</cell>
+    <cell>Comm SWB</cell>
+    <cell>37950</cell>
+    <cell>2525</cell>
+    <cell>3200</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Pajero 3.2 DID</cell>
+    <cell>Comm LWB</cell>
+    <cell>40950</cell>
+    <cell>2810</cell>
+    <cell>3200</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Pajero 3.2 DID Auto</cell>
+    <cell>Comm LWB</cell>
+    <cell>51540</cell>
+    <cell>2810</cell>
+    <cell>3200</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Pajero 3.2 DID 7S Auto</cell>
+    <cell>Estate 5d</cell>
+    <cell>65950</cell>
+    <cell />
+    <cell>3200</cell>
+    <cell>C</cell>
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>216</cell>
+    <cell />
+  </row>
+  <row>
+    <man>620</man>
+    <cell>Canter FB8 Euro V</cell>
+    <cell>Ch.Cab EWB</cell>
+    <cell>30038</cell>
+    <cell>3500</cell>
+    <cell>2835</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+</rows>

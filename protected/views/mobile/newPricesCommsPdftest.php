@@ -1,0 +1,10 @@
+<html>
+<body>
+<embed
+type="application/pdf"
+src="https://theguide.ie/dev/index.php?r=mobile/NewPricesCommsPdf&make=Citroen.xml&rangecode=320&rangename=Berlingo&backurl=https%3A%2F%2Ftheguide.ie%2Fdev%2Findex.php%3Fr%3Dmobile%2FnewPrices%26page%3Dcommercial&page=commercial″
+width="100%"
+height="100%">
+</embed>
+</body>
+</html>

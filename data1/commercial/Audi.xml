@@ -1,0 +1,35 @@
+<ncoms>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi SE" body="Estate 5d 2WD" retail="34360" gvw="" cc="1395" cat="" vrt="19" band="B2" co2="137" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi SE S-Tronic" body="Estate 5d 2WD" retail="36760" gvw="" cc="1395" cat="" vrt="23" band="C" co2="145" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TFSi SE 170 q'tro" body="Estate 5d 4WD" retail="38560" gvw="" cc="1984" cat="" vrt="30" band="E" co2="172" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 140" body="Estate 5d 2WD" retail="36060" gvw="" cc="1968" cat="" vrt="19" band="B2" co2="137" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 140 q'tro" body="Estate 5d 4WD" retail="38460" gvw="" cc="1968" cat="" vrt="23" band="C" co2="149" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 140 q'tro S-Tr" body="Estate 5d 4WD" retail="40860" gvw="" cc="1968" cat="" vrt="23" band="C" co2="152" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi SE 177 q'tro S-Tr" body="Estate 5d 4WD" retail="45850" gvw="" cc="1968" cat="" vrt="27" band="D" co2="158" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi S-Line" body="Estate 5d 2WD" retail="37660" gvw="" cc="1395" cat="" vrt="19" band="B2" co2="137" fuel="Petrol" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 1.4 T FSi S-Line S-Tronic" body="Estate 5d 2WD" retail="40060" gvw="" cc="1395" cat="" vrt="23" band="C" co2="145" fuel="Petrol" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TFSi S Line 170 q'tro" body="Estate 5d 4WD" retail="41860" gvw="" cc="1984" cat="" vrt="30" band="E" co2="172" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S Line 140" body="Estate 5d 2WD" retail="39360" gvw="" cc="1968" cat="" vrt="19" band="B2" co2="137" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S Line 140 q'tro" body="Estate 5d 4WD" retail="41760" gvw="" cc="1968" cat="" vrt="23" band="C" co2="149" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S L 140 q'tro S-Tr" body="Estate 5d 4WD" retail="44160" gvw="" cc="1968" cat="" vrt="23" band="C" co2="152" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q3 2.0 TDi S L 177 q'tro S-Tr" body="Estate 5d 4WD" retail="49150" gvw="" cc="1968" cat="" vrt="27" band="D" co2="158" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 143" body="Estate 5d 2WD" retail="41250" gvw="" cc="1968" cat="" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 143 q'tro" body="Estate 5d 4WD" retail="43850" gvw="" cc="1968" cat="" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 177 q'tro" body="Estate 5d 4WD" retail="45900" gvw="" cc="1968" cat="" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi 177 q'tro S-Tr" body="Estate 5d 4WD" retail="48500" gvw="" cc="1968" cat="" vrt="27" band="D" co2="159" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TFSi SE 225 q'tro tipt" body="Estate 5d 4WD" retail="56770" gvw="" cc="1984" cat="" vrt="30" band="E" co2="184" fuel="Petrol" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 143" body="Estate 5d 2WD" retail="43750" gvw="" cc="1968" cat="" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 143 q'tro" body="Estate 5d 4WD" retail="46350" gvw="" cc="1968" cat="" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 177 q'tro" body="Estate 5d 4WD" retail="48400" gvw="" cc="1968" cat="" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi SE 177 q'tro S-Tr" body="Estate 5d 4WD" retail="51000" gvw="" cc="1984" cat="" vrt="27" band="D" co2="159" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TFSi S L 225 q'tro tipt" body="Estate 5d 4WD" retail="60155" gvw="" cc="1984" cat="" vrt="34" band="F" co2="184" fuel="Petrol" tax="1200"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S Line 143" body="Estate 5d 2WD" retail="47135" gvw="" cc="1968" cat="" vrt="19" band="B2" co2="139" fuel="Diesel" tax="280"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S Line 143 q'tro" body="Estate 5d 4WD" retail="49735" gvw="" cc="1968" cat="" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S Line 177 q'tro" body="Estate 5d 4WD" retail="51785" gvw="" cc="1968" cat="" vrt="23" band="C" co2="154" fuel="Diesel" tax="390"/>
+	<vehicle manufacturer="Audi" model="Q5 2.0 TDi S L 177 q'tro S-Tr" body="Estate 5d 4WD" retail="54385" gvw="" cc="1968" cat="" vrt="27" band="D" co2="159" fuel="Diesel" tax="570"/>
+	<vehicle manufacturer="Audi" model="SQ5 3.0 TDi SE q'tro S-Tr" body="Estate 5d 4WD" retail="74050" gvw="" cc="2967" cat="" vrt="30" band="E" co2="179" fuel="Diesel" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi q'tro SE 204" body="Estate 5d 4WD" retail="77580" gvw="" cc="2967" cat="" vrt="30" band="E" co2="189" fuel="Diesel" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi q'tro SE 245" body="Estate 5d 4WD" retail="80300" gvw="" cc="2967" cat="" vrt="34" band="F" co2="195" fuel="Diesel" tax="1200"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi q'tro S Line 204" body="Estate 5d 4WD" retail="79730" gvw="" cc="2967" cat="" vrt="30" band="E" co2="189" fuel="Diesel" tax="750"/>
+	<vehicle manufacturer="Audi" model="Q7 3.0 TDi q'tro S Line 245" body="Estate 5d 4WD" retail="82450" gvw="" cc="2967" cat="" vrt="34" band="F" co2="195" fuel="Diesel" tax="1200"/>
+</ncoms>

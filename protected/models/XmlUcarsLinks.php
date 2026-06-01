@@ -1,0 +1,107 @@
+<?php
+
+/**
+ * This is the model class for table "xml_ucars_links".
+ *
+ * The followings are the available columns in table 'xml_ucars_links':
+ * @property integer $id
+ * @property integer $id_import
+ * @property string $maker
+ * @property string $linkcode
+ * @property string $codenumber
+ */
+class XmlUcarsLinks extends CActiveRecord
+{
+	/**
+	 * @return string the associated database table name
+	 */
+	public function tableName()
+	{
+		return 'xml_ucars_links';
+	}
+
+	/**
+	 * @return array validation rules for model attributes.
+	 */
+	public function rules()
+	{
+		// NOTE: you should only define rules for those attributes that
+		// will receive user inputs.
+		return array(
+			array('id_import, maker, linkcode, codenumber', 'required'),
+			array('id_import', 'numerical', 'integerOnly'=>true),
+			array('maker', 'length', 'max'=>100),
+			array('linkcode, codenumber', 'length', 'max'=>20),
+			// The following rule is used by search().
+			// @todo Please remove those attributes that should not be searched.
+			array('id, id_import, maker, linkcode, codenumber', 'safe', 'on'=>'search'),
+		);
+	}
+
+	/**
+	 * @return array relational rules.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+		);
+	}
+
+	/**
+	 * @return array customized attribute labels (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'id' => 'ID',
+			'id_import' => 'Id Import',
+			'maker' => 'Maker',
+			'linkcode' => 'Linkcode',
+			'codenumber' => 'Codenumber',
+		);
+	}
+
+
+	public function search()
+	{
+		// @todo Please modify the following code to remove attributes that should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('id',$this->id);
+		$criteria->compare('id_import',$this->id_import);
+		$criteria->compare('maker',$this->maker,true);
+		$criteria->compare('linkcode',$this->linkcode,true);
+		$criteria->compare('codenumber',$this->codenumber,true);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+        public static function getLinkedCarCode($code, $arch=null){
+            
+            if(!empty($arch)){
+                $linkedCar = self::model()->find('linkcode=:code AND id_import=:arch', array('code'=>$code, 'arch'=>$arch));
+            }else {
+                $linkedCar = self::model()->find('linkcode=:code', array('code'=>$code));
+            }
+            
+            if(!empty($linkedCar))
+                    return $linkedCar->codenumber;
+            else 
+                return null;
+        }
+
+	/**
+	 * Returns the static model of the specified AR class.
+	 * Please note that you should have this exact method in all your CActiveRecord descendants!
+	 * @param string $className active record class name.
+	 * @return XmlUcarsLinks the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+}

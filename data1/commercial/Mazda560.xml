@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>560</man>
+    <cell>CX-5 2.0 Executive</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>28895</cell>
+    <cell />
+    <cell>1998</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>560</man>
+    <cell>CX-5 2.2 Dsl Executive</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>31395</cell>
+    <cell />
+    <cell>2191</cell>
+    <cell />
+    <cell>17</cell>
+    <cell>A4</cell>
+    <cell>119</cell>
+    <cell />
+  </row>
+  <row>
+    <man>560</man>
+    <cell>CX-5 2.2 Dsl Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>32895</cell>
+    <cell />
+    <cell>2191</cell>
+    <cell />
+    <cell>17</cell>
+    <cell>A4</cell>
+    <cell>119</cell>
+    <cell />
+  </row>
+  <row>
+    <man>560</man>
+    <cell>CX-5 2.2 Dsl Sport Auto</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>34995</cell>
+    <cell />
+    <cell>2191</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>560</man>
+    <cell>CX-5 2.2 Dsl Sport SE</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>36095</cell>
+    <cell />
+    <cell>2191</cell>
+    <cell />
+    <cell>17</cell>
+    <cell>A4</cell>
+    <cell>119</cell>
+    <cell />
+  </row>
+  <row>
+    <man>560</man>
+    <cell>CX-5 2.2 Dsl Sport SE</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>38795</cell>
+    <cell />
+    <cell>2191</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>136</cell>
+    <cell />
+  </row>
+</rows>

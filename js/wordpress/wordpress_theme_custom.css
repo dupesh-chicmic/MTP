@@ -1,0 +1,220 @@
+#Header a.responsive-menu-toggle {
+    margin: 0;
+    position: absolute !important;
+    right: -20px !important;
+    top: 20px !important;
+    z-index: 10;
+}
+
+ #Top_bar .logo #logo {
+    margin: 5px 5px 15px;
+    padding: 0;
+}
+
+.menu-highlight #Top_bar .menu > li {
+    margin: 0 5px;
+}
+
+#Top_bar .logo {
+  float:left;
+  margin:0 0px 0 0px;
+}
+
+body:not(.template-slider) #Header {
+    min-height: 50px;
+}
+
+
+body:not(.template-slider):not(.header-simple) #Header {
+    background-position: center 202px;
+    min-height: 50px;
+}
+
+.video {
+font-size: 40px;
+}
+
+
+/* START OF RESPONSIVE TABLES */
+
+
+/* Foundation v2.1.4 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+table th { font-weight: bold; }
+table td, table th { padding: 9px 10px; text-align: left; }
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+	
+	table.responsive { margin-bottom: 0; }
+	
+	.pinned { position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc; border-left: 1px solid #ccc; }
+	.pinned table { border-right: none; border-left: none; width: 100%; }
+	.pinned table th, .pinned table td { white-space: nowrap; }
+	.pinned td:last-child { border-bottom: 0; }
+	
+	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
+	div.table-wrapper div.scrollable { margin-left: 35%; }
+	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
+	
+	table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; }
+	table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td { display: none; }
+	
+	
+}
+
+
+
+/*SUB PAGE MENU */
+
+.myNav .nav li.active:nth-child(1) a{
+ color: #80ffff;
+}
+.myNav .nav li.active:nth-child(1) a:hover{
+ color: #ffc63d;
+}
+
+.myNav .nav li.active:nth-child(2) a{
+ color: #ffe0b3;
+}
+.myNav .nav li.active:nth-child(2) a:hover{
+ color: #ffc63d;
+}
+
+.myNav {    
+  display: block;
+  text-align: center;
+}
+.myNav ul {
+  margin: 0;
+  padding:0;
+  list-style: none !important;
+}
+.myNav .nav a {
+  display:block; 
+ background: #1c4756;
+  color: #ffffff; 
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+ /* text-transform: uppercase;*/
+  font-size: 100%;
+  letter-spacing: 2px;
+  text-shadow: 0 -1px 0 #000000;
+  position: relative;
+}
+.myNav .nav{  
+  vertical-align: top; 
+  display: inline-block;
+  box-shadow: 
+    1px -1px -1px 1px #000000, 
+    -1px 1px -1px 1px #ffffff, 
+    0 0 6px 3px #ffffff;
+  border-radius:6px;
+}
+.myNav .nav li {
+  position: relative;
+list-style: none !important;
+}
+.myNav .nav > li { 
+  float: left; 
+  border-bottom: 4px #aaaaaa solid; 
+  margin-right: 1px; 
+text-align: left;
+} 
+
+/*.myNav .nav > li > a { 
+  margin-bottom: 1px;
+  box-shadow: inset 0 2em .33em -0.5em #555; 
+}*/
+
+.myNav .nav > li:hover, 
+.myNav .nav > li:hover > a { 
+  border-bottom-color: #ffc63d;
+}
+.myNav .nav li:hover > a { 
+  color:#ffc63d; 
+}
+.myNav .nav > li:first-child { 
+  border-radius: 4px 0 0 4px;
+} 
+/*
+.nav > li:first-child > a { 
+  border-radius: 4px 0 0 0;
+}*/
+
+.myNav .nav > li:last-child { 
+  border-radius: 0 0 4px 0; 
+  margin-right: 0;
+} 
+.myNav .nav > li:last-child > a { 
+  border-radius: 0 4px 0 0;
+}
+.myNav .nav li li a { 
+  margin-top: 1px;
+}
+
+.myNav .nav li a:first-child:nth-last-child(2):before { 
+  content: ""; 
+  position: absolute; 
+  height: 0; 
+  width: 0; 
+  border: 5px solid transparent; 
+  top: 50% ;
+  right:5px;  
+ }
+
+/* submenu positioning*/
+.myNav .nav ul {
+  position: absolute;
+  white-space: nowrap;
+   background: #1c4756;
+  z-index: 1;
+  left: -99999em;
+margin-left:70px;
+}
+.myNav .nav > li:hover > ul {
+  left: auto;
+  margin-top: 5px;
+  min-width: 100%;
+}
+.myNav .nav > li li:hover > ul { 
+  left: 100%;
+  margin-left: 1px;
+  top: -1px;
+}
+/* arrow hover styling */
+.myNav .nav > li > a:first-child:nth-last-child(2):before { 
+  border-top-color: #aaaaaa; 
+}
+.myNav .nav > li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+
+  margin-top:-5px
+}
+.myNav .nav li li > a:first-child:nth-last-child(2):before {  
+  border-left-color: #aaa; 
+  margin-top: -5px
+}
+.myNav .nav li li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  border-right-color: #ffc63d;
+  right: 10px; 
+}
+
+.myNav .nav li.active {
+  padding: 0 65px;
+}

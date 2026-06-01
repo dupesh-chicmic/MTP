@@ -1,0 +1,23 @@
+version: "2"
+services:
+    app:
+        build:
+            context: .
+            dockerfile: ./Dockerfile-app
+        container_name: MTP-app-updated
+        hostname: dev.mtp.ie
+#        restart: always
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - .:/var/www/html
+            - etcletsencrypt:/etc/letsencrypt
+            - varletsencrypt:/var/lib/letsencrypt
+        environment:
+            LETS_ENCRYPT_EMAIL: "manish@thappdevelopment.company"
+            LETS_ENCRYPT_DOMAINS: "www.theguide.dev.mtp.ie, api.dev.mtp.ie -d www.admin.dev.mtp.ie -d www.api.dev.mtp.ie"
+            LETS_ENCRYPT_FORCE_RENEWAL: "renew"
+volumes:
+   varletsencrypt:
+   etcletsencrypt:

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>580</man>
+    <cell>Vito 110 CDi K</cell>
+    <cell>Van</cell>
+    <cell>23803</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 110 CDi L</cell>
+    <cell>Van</cell>
+    <cell>24439</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 110 CDi E</cell>
+    <cell>Van</cell>
+    <cell>25118</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 113 CDi K</cell>
+    <cell>Van</cell>
+    <cell>25677</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 113 CDi L</cell>
+    <cell>Van</cell>
+    <cell>26313</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 113 CDi E</cell>
+    <cell>Van</cell>
+    <cell>26998</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 116 CDi K</cell>
+    <cell>Van</cell>
+    <cell>27401</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 116 CDi L</cell>
+    <cell>Van</cell>
+    <cell>28052</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 116 CDi E</cell>
+    <cell>Van</cell>
+    <cell>28752</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 113 CDi LH</cell>
+    <cell>Van</cell>
+    <cell>27734</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Vito 116 CDi LH</cell>
+    <cell>Van</cell>
+    <cell>29515</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 210D/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>28292</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 210D/36 CDi</cell>
+    <cell>Van Hi Roof</cell>
+    <cell>29685</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 213D/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>30066</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 213D/36 CDi</cell>
+    <cell>Van Hi Roof</cell>
+    <cell>31459</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 216D/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>30809</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 216D/36 CDi</cell>
+    <cell>Van Hi Roof</cell>
+    <cell>32194</cell>
+    <cell>2800</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 219D/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>32972</cell>
+    <cell>2800</cell>
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 219D/36 CDi</cell>
+    <cell>Van Hi Roof</cell>
+    <cell>34364</cell>
+    <cell>2800</cell>
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 310D/36 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>27027</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 313D/36 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>28723</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 316D/36 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>29430</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 319D/36 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>33608</cell>
+    <cell>3500</cell>
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 310D/43 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>27705</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 313D/43 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>29395</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 316D/43 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>30102</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 319D/43 CDi</cell>
+    <cell>Chassis Cab</cell>
+    <cell>32138</cell>
+    <cell>3500</cell>
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 310/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>31240</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 310/36 CDi</cell>
+    <cell>Van Hi Roof</cell>
+    <cell>32632</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 313/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>34407</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 316/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>35149</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 319/36 CDi</cell>
+    <cell>Van</cell>
+    <cell>37312</cell>
+    <cell>3500</cell>
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 310/43 CDi</cell>
+    <cell>Van</cell>
+    <cell>33693</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 313/43 CDi</cell>
+    <cell>Van</cell>
+    <cell>35467</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 316/43 CDi</cell>
+    <cell>Van</cell>
+    <cell>36202</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 319/43 CDi</cell>
+    <cell>Van</cell>
+    <cell>38372</cell>
+    <cell>3500</cell>
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 310/43 EX CDi</cell>
+    <cell>Van</cell>
+    <cell>34336</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 313/43 EX CDi</cell>
+    <cell>Van</cell>
+    <cell>36110</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 316/43 EX CDi</cell>
+    <cell>Van</cell>
+    <cell>36853</cell>
+    <cell>3500</cell>
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>Sprinter 319/43 EX CDi</cell>
+    <cell>Van</cell>
+    <cell>39016</cell>
+    <cell>3500</cell>
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>ML 350 4Matic BE</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>82025</cell>
+    <cell />
+    <cell>3498</cell>
+    <cell>C</cell>
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>199</cell>
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>ML 250 Cdi 4Matic Bluetec</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>74680</cell>
+    <cell />
+    <cell>2143</cell>
+    <cell>C</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>158</cell>
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>ML 350 Cdi 4Matic Bluetec</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>78840</cell>
+    <cell />
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>179</cell>
+    <cell />
+  </row>
+  <row>
+    <man>580</man>
+    <cell>GL 350 Cdi Bluetec A/T</cell>
+    <cell>Estate 4x4</cell>
+    <cell>106875</cell>
+    <cell />
+    <cell>2987</cell>
+    <cell>C</cell>
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>199</cell>
+    <cell />
+  </row>
+</rows>

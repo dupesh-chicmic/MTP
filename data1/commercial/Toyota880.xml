@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>880</man>
+    <cell>Auris 1.4 D4D Aura</cell>
+    <cell>Van 5d</cell>
+    <cell>18495</cell>
+    <cell />
+    <cell>1364</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Dyna 100 D4D</cell>
+    <cell>Pick Up</cell>
+    <cell>19510</cell>
+    <cell>3000</cell>
+    <cell>2494</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.0 Aura</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>33830</cell>
+    <cell />
+    <cell>1987</cell>
+    <cell>C</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>167</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.0 Luna</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>35940</cell>
+    <cell />
+    <cell>1987</cell>
+    <cell>C</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>167</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.0 Luna M'Drive</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>38130</cell>
+    <cell />
+    <cell>1987</cell>
+    <cell>C</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>166</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.0 Sol</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>40470</cell>
+    <cell />
+    <cell>1987</cell>
+    <cell>C</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>169</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.0 Sol M'Drive</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>41770</cell>
+    <cell />
+    <cell>1987</cell>
+    <cell>C</cell>
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>167</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.0 D4D Aura</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>28995</cell>
+    <cell />
+    <cell>1998</cell>
+    <cell>C</cell>
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>127</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.0 D4D Luna</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>30995</cell>
+    <cell />
+    <cell>1998</cell>
+    <cell>C</cell>
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>127</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.2 D4D Aura</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>33125</cell>
+    <cell />
+    <cell>2231</cell>
+    <cell>C</cell>
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>147</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.2 D4D Luna</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>34995</cell>
+    <cell />
+    <cell>2231</cell>
+    <cell>C</cell>
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>147</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.2 D4D Sol</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>38495</cell>
+    <cell />
+    <cell>2231</cell>
+    <cell>C</cell>
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.2 DCAT Luna A/T</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>40995</cell>
+    <cell />
+    <cell>2231</cell>
+    <cell>C</cell>
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>173</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>RAV 4 2.2 DCAT Sol A/T</cell>
+    <cell>Estate 5d AWD</cell>
+    <cell>44520</cell>
+    <cell />
+    <cell>2231</cell>
+    <cell>C</cell>
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>176</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Hi-Lux D4D 2.5 DLX</cell>
+    <cell>Single Cab 4x4</cell>
+    <cell>24620</cell>
+    <cell>2670</cell>
+    <cell>2494</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Hi-Lux D4D 2.5 DLX</cell>
+    <cell>Dbl.Cab 4x4</cell>
+    <cell>31440</cell>
+    <cell>2705</cell>
+    <cell>2494</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Hi-Lux D4D 2.5 SR5</cell>
+    <cell>Dbl.Cab 4x4</cell>
+    <cell>33875</cell>
+    <cell>2715</cell>
+    <cell>2494</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Hi-Lux D4D 3.0 SR5</cell>
+    <cell>Dbl.Cab 4x4</cell>
+    <cell>35995</cell>
+    <cell>2735</cell>
+    <cell>2982</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Hi-Lux D4D 3.0 SR5 A/T</cell>
+    <cell>Dbl.Cab 4x4</cell>
+    <cell>37875</cell>
+    <cell>2735</cell>
+    <cell>2982</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Hi-Lux D4D 3.0 SR5 Prem</cell>
+    <cell>Dbl. Cab 4x4</cell>
+    <cell>39220</cell>
+    <cell>2735</cell>
+    <cell>2982</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Hi-Lux D4D 3.0 SR5 Prem A/T</cell>
+    <cell>Dbl. Cab 4x4</cell>
+    <cell>41045</cell>
+    <cell>2735</cell>
+    <cell>2982</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Landcruiser 3.0 D4D GX</cell>
+    <cell>Comm SWB</cell>
+    <cell>38495</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Landcruiser 3.0 D4D GX A/T</cell>
+    <cell>Comm SWB</cell>
+    <cell>40495</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>B</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Landcruiser 3.0 D4D GX</cell>
+    <cell>Comm LWB</cell>
+    <cell>41495</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>Landcruiser 3.0 D4D GX A/T</cell>
+    <cell>Comm LWB</cell>
+    <cell>43495</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>C</cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>LandCruiser 3.0 D4D GX</cell>
+    <cell>Estate 5d SWB</cell>
+    <cell>67645</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>C</cell>
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>214</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>LandCruiser 3.0 D4D GX A/T</cell>
+    <cell>Estate 5d SWB</cell>
+    <cell>70800</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>C</cell>
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>209</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>LandCruiser 3.0 D4D GX A/T</cell>
+    <cell>Estate 5d LWB</cell>
+    <cell>78165</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>C</cell>
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>213</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>LandCruiser 3.0 D4D Pr. A/T</cell>
+    <cell>Estate 5d LWB</cell>
+    <cell>90445</cell>
+    <cell />
+    <cell>2982</cell>
+    <cell>C</cell>
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>213</cell>
+    <cell />
+  </row>
+  <row>
+    <man>880</man>
+    <cell>LandCruiser 4.5 D4D V8</cell>
+    <cell>Estate 5d LWB</cell>
+    <cell>144875</cell>
+    <cell />
+    <cell>4461</cell>
+    <cell>C</cell>
+    <cell>36</cell>
+    <cell>G</cell>
+    <cell>270</cell>
+    <cell />
+  </row>
+</rows>

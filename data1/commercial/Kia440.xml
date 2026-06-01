@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>440</man>
+    <cell>Sportage 1.7 Dsl LX</cell>
+    <cell>Estate 5d 4x2</cell>
+    <cell>26590</cell>
+    <cell />
+    <cell>1685</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>135</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sportage 1.7 Dsl EX</cell>
+    <cell>Estate 5d 4x2</cell>
+    <cell>27790</cell>
+    <cell />
+    <cell>1685</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>135</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sportage 1.7 Dsl EXS</cell>
+    <cell>Estate 5d 4x2</cell>
+    <cell>28990</cell>
+    <cell />
+    <cell>1685</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sportage 1.7 Dsl Platinum</cell>
+    <cell>Estate 5d 4x2</cell>
+    <cell>30190</cell>
+    <cell />
+    <cell>1685</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>139</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sportage 1.7 Dsl GSE</cell>
+    <cell>Estate 5d 4x2</cell>
+    <cell>31190</cell>
+    <cell />
+    <cell>1685</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>135</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sportage 2.0 Dsl EX</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>32670</cell>
+    <cell />
+    <cell>1998</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sportage 2.0 Dsl EX A/T</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>36490</cell>
+    <cell />
+    <cell>1998</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>179</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sorento 2.2 Dsl EX</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>37990</cell>
+    <cell />
+    <cell>2199</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>155</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sorento 2.2 Dsl Platinum</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>41790</cell>
+    <cell />
+    <cell>2199</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>155</cell>
+    <cell />
+  </row>
+  <row>
+    <man>440</man>
+    <cell>Sorento 2.2 Dsl Platinum A/T</cell>
+    <cell>Estate 5d 4x4</cell>
+    <cell>47290</cell>
+    <cell />
+    <cell>2199</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>175</cell>
+    <cell />
+  </row>
+</rows>

@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<head>
+	<column width="210" type="ro" align="left" color="#CCFFFF" sort="str">Make/Model</column>
+	<column width="110" type="ro" align="left" color="white" sort="str">Body</column>
+	<column width="60" type="ro" align="left" color="#CCFFFF" sort="int">Retail</column>
+	<column width="60" type="ro" align="left" color="white" sort="int">GVWKg</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">CC</column>
+	<column width="30" type="ro" align="center" color="white" sort="str">Cat</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">VRT%</column>
+	<column width="40" type="ro" align="center" color="white" sort="str">Band</column>
+	<column width="40" type="ro" align="center" color="#CCFFFF" sort="int">Co2</column>
+	<settings>
+		<colwidth>px</colwidth>
+	</settings>
+</head>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i SE</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>40780</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>162</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>42440</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>162</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i xLine</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>44100</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>165</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i M Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>45770</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>165</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i SE</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>44630</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>176</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>46350</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>176</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i xLine</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>48070</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>179</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i M Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>49790</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>30</cell>
+    <cell>E</cell>
+    <cell>179</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 16d SE</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>34820</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>128</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 16d Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>36320</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>128</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 16d xLine</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>37820</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>128</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d SE</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>36470</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>128</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>37970</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>128</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d xLine</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>39470</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>128</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d M Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>40970</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>128</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d Eff. Dynamics</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>38200</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>17</cell>
+    <cell>A4</cell>
+    <cell>119</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d SE</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>38610</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>129</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>40110</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>129</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d xLine</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>41610</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>129</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d M Sport</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>43110</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>18</cell>
+    <cell>B1</cell>
+    <cell>129</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d SE</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>40680</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>144</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>42270</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>144</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d xLine</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>43850</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>144</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d M Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>45440</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>144</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d SE</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>42950</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>145</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>44540</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>145</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d xLine</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>46120</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>145</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d M Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>47710</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>145</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 25d xLine</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>49680</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>145</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 25d M Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>51260</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>154</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i SE A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>43297</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>157</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i Sport A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>44957</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>157</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i xLine A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>46617</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>160</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20i M Sport A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>48287</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>160</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>45555</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>167</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>47214</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>167</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i xLine A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>48872</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>170</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20i M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>50531</cell>
+    <cell />
+    <cell>1997</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>170</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d SE A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>39033</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d Sport A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>40550</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d xLine A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>42066</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 18d M Sport A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>43582</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d SE A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>41327</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d Sport A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>42844</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d xLine A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>44360</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 sDrive 20d M Sport A/T</cell>
+    <cell>Estate 5d 2WD</cell>
+    <cell>45876</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>132</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>42946</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>44536</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d xLine A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>46116</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 18d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>47706</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>45353</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d xLine A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>46943</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>48523</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 20d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>50113</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>143</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 25d xLine A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>52083</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>145</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X1 xDrive 25d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>53663</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>145</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 sDrive 18d SE</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>42840</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>135</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 sDrive 18d M Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>46920</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>19</cell>
+    <cell>B2</cell>
+    <cell>135</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 20d SE</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>49450</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 20d M Sport</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>53710</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>149</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 sDrive 18d SE Auto</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>47203</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>142</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 sDrive 18d M Sport Auto</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>51473</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>142</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 20d SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>51813</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>147</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 20d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>56073</cell>
+    <cell />
+    <cell>1995</cell>
+    <cell />
+    <cell>23</cell>
+    <cell>C</cell>
+    <cell>147</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 30d SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>62540</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>159</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 30d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>66480</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>159</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 35d SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>66870</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>162</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X3 xDrive 35d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>70250</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>27</cell>
+    <cell>D</cell>
+    <cell>162</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 xDrive 50i SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>103260</cell>
+    <cell />
+    <cell>4398</cell>
+    <cell />
+    <cell>36</cell>
+    <cell>G</cell>
+    <cell>292</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 xDrive 50i M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>109200</cell>
+    <cell />
+    <cell>4398</cell>
+    <cell />
+    <cell>36</cell>
+    <cell>G</cell>
+    <cell>292</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 M</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>153660</cell>
+    <cell />
+    <cell>4395</cell>
+    <cell />
+    <cell>36</cell>
+    <cell>G</cell>
+    <cell>325</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 xDrive 30d SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>80690</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>195</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 xDrive 30d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>88780</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>195</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 xDrive 40d SE A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>85050</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>198</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 xDrive 40d M Sport A/T</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>93150</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>198</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X5 M50d</cell>
+    <cell>Estate 5d 4WD</cell>
+    <cell>108620</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>199</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X6 xDrive 35i A/T</cell>
+    <cell>Coupe 5d 4WD</cell>
+    <cell>86890</cell>
+    <cell />
+    <cell>2979</cell>
+    <cell />
+    <cell>36</cell>
+    <cell>G</cell>
+    <cell>236</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X6 xDrive 50i A/T</cell>
+    <cell>Coupe 5d 4WD</cell>
+    <cell>105970</cell>
+    <cell />
+    <cell>4799</cell>
+    <cell />
+    <cell>36</cell>
+    <cell>G</cell>
+    <cell>292</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X6 M A/T</cell>
+    <cell>Coupe 5d 4WD</cell>
+    <cell>158210</cell>
+    <cell />
+    <cell>4395</cell>
+    <cell />
+    <cell>36</cell>
+    <cell>G</cell>
+    <cell>325</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X6 xDrive 30d A/T</cell>
+    <cell>Coupe 5d 4WD</cell>
+    <cell>83750</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>195</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X6 xDrive 40d A/T</cell>
+    <cell>Coupe 5d 4WD</cell>
+    <cell>88500</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>198</cell>
+    <cell />
+  </row>
+  <row>
+    <man>160</man>
+    <cell>X6 M50d</cell>
+    <cell>Coupe 5d 4WD</cell>
+    <cell>111910</cell>
+    <cell />
+    <cell>2993</cell>
+    <cell />
+    <cell>34</cell>
+    <cell>F</cell>
+    <cell>204</cell>
+    <cell />
+  </row>
+</rows>
