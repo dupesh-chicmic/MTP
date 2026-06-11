@@ -1443,11 +1443,11 @@ class RegistrationService
         $rest_coreWithAssociatedCarsModel = $params['rest_coreWithAssociatedCarsModel'];
 
         $carResults = array_merge($main_coreWithAssociatedCarsModel, $rest_coreWithAssociatedCarsModel);
-        //year validation
+
+        // Year validation
         $carTooOldOrYoung = false;
         $skip = 0;
         if (!RegistrationService::isValidYear($vehicle, $params['regNumber'])) {
-            //year outside the range
             $carTooOldOrYoung = true;
             $skip = 3;
         } else {
@@ -1456,44 +1456,25 @@ class RegistrationService
             }
         }
 
-
-        //GOLF ESTATE / HATCH
+        // Adjust body for certain models (GOLF ESTATE / HATCH)
         if (strpos(strtolower($vehicle['model']), 'golf') !== false && strpos(strtolower($vehicle['body']), 'estate') !== false) {
             $vehicle['body'] = 'ESTATE/HATCH';
         }
         //VELAR
         if (strpos(strtolower($vehicle['model']), 'velar') !== false) {
-            //echo "skip =4";
             $skip = 4;
         }
 
-        /* if (
-            $vehicle['make'] == "Toyota" &&
-            strpos($vehicle['model'], "Yaris") !== false &&
-            strpos($vehicle['model'], "Cross") !== false
-        ) {
-            // $vehicle['code'] = "";
-            // echo "<pre>"; 
-            // print_r($main_coreWithAssociatedCarsModel);
-            // print_r($rest_coreWithAssociatedCarsModel);
-            // //print_r($carResults); 
-            // die;
-            //$skip = 4;
-        } */
-        //echo "<pre>"; print_r($carResults); echo $vehicle['body']; die;
-        //NEw car
         $RiRetrunedCode = null;
         if (!empty($vehicle['code'])) {
             $RiRetrunedCode = $vehicle['code'];
             $used_or_new = substr($vehicle['code'], 3, 2);
-
-            //echo "code:".$used_or_new;
             if ($used_or_new == '12') {
-                //echo "skip =4";
                 $skip = 4;
-                //echo "the 12 number";
             }
         }
+
+        // Query cars by Verisk if no initial results or MPV/non-commercial
         $textQuerriedUCars = array();
         if (empty($carResults) || RegistrationService::isMPVorOtherNonCommercialBody($vehicle['body'])) {
             //MPV, JEEP, Estat
@@ -1522,7 +1503,6 @@ class RegistrationService
                     }
                 }
             } else {
-
                 $rangeVeriskCandidate = $carResults[0]['rangecode'];
                 $range = UsedCarsRanges::model()->find('rangecode=:range_code ORDER BY id desc', array('range_code' => $rangeVeriskCandidate));
                 if (empty($range)) {
@@ -1552,9 +1532,9 @@ class RegistrationService
                     $skip = 0; // no cars in that range
                 }
             }
-            //echo "<pre>"; print_r($range); die;
+
             $textQuerriedUCars = RegistrationService::getCarsByTextValuesFromVerisk($vehicle, 'UsedCarsModel', $range);
-            //echo "<pre>"; print_r($textQuerriedUComms); die;
+
             if (!RegistrationService::isMPVorOtherNonCommercialBody($vehicle['body'])) {
                 $textQuerriedUComms = RegistrationService::getCarsByTextValuesFromVerisk($vehicle, 'UsedComCarsModel', $range);
             }
@@ -1571,21 +1551,8 @@ class RegistrationService
 
             $carResults = array_merge($carResults, $carResultsText);
         }
-        //echo "<pre>"; print_r($carResults); die;
-        // code in theguide portal starts here
-        // usort($carResults, function($a, $b) {
-        //     if($a['id']==$b['id']) return 0;
-        //     return $a['id'] < $b['id']?1:-1;
-
-        // });
-        // code in theguide portal ends here
 
         $filteredCars = RegistrationService::getValidVehicles($carResults, $vehicle);
-        // echo "<pre>";
-        // // var_dump($carResults);
-        // print_r($filteredCars);
-        // // print_r($range);
-        // die;    
         $valuationArray = $scoringLog = array();
 
         if (!empty($filteredCars)) {
@@ -1600,66 +1567,67 @@ class RegistrationService
             $scoringLog = $rawResults['scoreLog'];
         }
 
-        if (!empty($results) && is_array($results)) {
-            //echo "<pre>"; print_r($results); die;
-            if (RegistrationService::isMPVorOtherNonCommercialBody($vehicle['body'])) {
-                $bestCarId = RegistrationService::getFirstValuedVehicle($results, $valuationArray, null);
-            } else {
-                $bestCarId = RegistrationService::getFirstValuedVehicle($results, $valuationArray, $RiRetrunedCode);
-            }
+        // --------- UPDATED BESTCARID LOGIC --------- (11-06-2026)
+        $bestCarId = null;
 
-            if (empty($bestCarId)) {
-                // original fallback (kept commented for reference)
-                // $arrVal = array_keys($results);
-                // $bestCarId = array_shift($arrVal);
+        // Step 1: Prefer model from params
+        if (!empty($params['model']) && is_object($params['model']) && isset($params['model']->id)) {
+            $bestCarId = $params['model']->id;
 
-                // Prefer using the model id passed in params when available.
-                // If a used_*_model row exists that matches both the passed model id
-                // and the model codenumber, prefer that DB row's id as bestCarId.
-                if (!empty($params['model']) && is_object($params['model']) && isset($params['model']->id)) {
-                    $bestCarId = $params['model']->id;
-                    if (!empty($params['model']->codenumber)) {
-                        // try to find a matching used car model row (cars and commercial tables)
-                        $found = UsedCarsModel::model()->find('id_used_cars=:id AND codenumber=:code ORDER BY id DESC', array(':id' => $params['model']->id, ':code' => $params['model']->codenumber));
-                        if (empty($found)) {
-                            $found = UsedComCarsModel::model()->find('id_used_com_cars=:id AND codenumber=:code ORDER BY id DESC', array(':id' => $params['model']->id, ':code' => $params['model']->codenumber));
-                        }
-                        if (!empty($found) && isset($found->id)) {
-                            $bestCarId = $found->id;
-                        }
-                    }
-                } else {
-                    // fallback to original behaviour if params['model']->id isn't available
-                    $arrVal = array_keys($results);
-                    $bestCarId = array_shift($arrVal);
+            if (!empty($params['model']->codenumber)) {
+                $found = UsedCarsModel::model()->find('id_used_cars=:id AND codenumber=:code ORDER BY id DESC', [
+                    ':id' => $params['model']->id,
+                    ':code' => $params['model']->codenumber
+                ]);
+                if (empty($found)) {
+                    $found = UsedComCarsModel::model()->find('id_used_com_cars=:id AND codenumber=:code ORDER BY id DESC', [
+                        ':id' => $params['model']->id,
+                        ':code' => $params['model']->codenumber
+                    ]);
                 }
-            }
-            //$bestCarId=779373;
-            $car = UsedComCarsModel::model()->findByPk($bestCarId);
-            if (empty($car)) {
-                $arrVal = array_keys($results);
-                $car = UsedCarsModel::model()->findByPk($bestCarId);
-            }
-            Yii::log(
-                "REG selection reg=" . (isset($params['regNumber']) ? $params['regNumber'] : '') .
-                " ri_code=" . $RiRetrunedCode .
-                " bestCarId=" . $bestCarId .
-                " car=" . json_encode(is_object($car) ? $car->attributes : $car) .
-                " vehicle=" . json_encode($vehicle),
-                CLogger::LEVEL_ERROR,
-                'application.registration'
-            );
-        } else {
-            if (!empty($carResults) && is_array($carResults)) {
-                $arrVal = array_values($carResults);
-                $car = array_shift($arrVal);
-            } else {
-                if (!$carTooOldOrYoung) {
-                    $skip = 1;
+                if (!empty($found) && isset($found->id)) {
+                    $bestCarId = $found->id;
                 }
             }
         }
 
+        // Step 2: If still null, fallback to results scoring
+        if (empty($bestCarId) && !empty($results) && is_array($results)) {
+            $bestCarId = RegistrationService::isMPVorOtherNonCommercialBody($vehicle['body'])
+                ? RegistrationService::getFirstValuedVehicle($results, $valuationArray, null)
+                : RegistrationService::getFirstValuedVehicle($results, $valuationArray, $RiRetrunedCode);
+
+            // if (empty($bestCarId)) {
+            //     $arrVal = array_keys($results);
+            //     $bestCarId = array_shift($arrVal);
+            // }
+        }
+
+        // Step 3: Fetch the car object safely
+        $car = null;
+        if (!empty($bestCarId)) {
+            $car = UsedComCarsModel::model()->findByPk($bestCarId);
+            if (empty($car)) {
+                $car = UsedCarsModel::model()->findByPk($bestCarId);
+            }
+        } elseif (!empty($carResults) && is_array($carResults)) {
+            $arrVal = array_values($carResults);
+            $car = array_shift($arrVal);
+        } elseif (!$carTooOldOrYoung) {
+            $skip = 1;
+        }
+
+        Yii::log(
+            "REG selection reg=" . (isset($params['regNumber']) ? $params['regNumber'] : '') .
+            " ri_code=" . $RiRetrunedCode .
+            " bestCarId=" . $bestCarId .
+            " car=" . json_encode(is_object($car) ? $car->attributes : $car) .
+            " vehicle=" . json_encode($vehicle),
+            CLogger::LEVEL_ERROR,
+            'application.registration'
+        );
+        
+        // Special overrides for specific registration numbers
         $regTemp = isset($_POST['VehicleRegNumber']) ? strtoupper(trim($_POST['VehicleRegNumber'])) : $params['vehicle']['registerVehicleNumber'];
         if ($regTemp == '161WH6' || $regTemp == '161WH112') {
             $car = UsedCarsModel::model()->find('codenumber=:codenumber ORDER BY ID DESC', array('codenumber' => '8002400474'));
