@@ -37,12 +37,12 @@ class RegistrationService
     }
 
 
-    public static function getCarsByTextValuesFromVerisk($riData, $selectModel, $range = null)
+    public static function getCarsByTextValuesFromVerisk($riData, $selectModel, $range = null, $arch = null)
     {
 
         // HERE
         $fuelLetter = strtoupper(substr($riData['fuel'], 0, 1));
-        $importId = Import::getLastImportId($selectModel);
+        $importId = !empty($arch) ? $arch : Import::getLastImportId($selectModel);
         $model = "";
         if ($selectModel == "UsedCarsModel") {
             $carOrComm = 'used_cars';
@@ -1443,6 +1443,8 @@ class RegistrationService
         $rest_coreWithAssociatedCarsModel = $params['rest_coreWithAssociatedCarsModel'];
 
         $carResults = array_merge($main_coreWithAssociatedCarsModel, $rest_coreWithAssociatedCarsModel);
+        $arch = isset($params['arch']) ? $params['arch'] : null;
+        $archCom = isset($params['archCom']) ? $params['archCom'] : null;
 
         // Year validation
         $carTooOldOrYoung = false;
@@ -1533,10 +1535,10 @@ class RegistrationService
                 }
             }
 
-            $textQuerriedUCars = RegistrationService::getCarsByTextValuesFromVerisk($vehicle, 'UsedCarsModel', $range);
+            $textQuerriedUCars = RegistrationService::getCarsByTextValuesFromVerisk($vehicle, 'UsedCarsModel', $range, $arch);
 
             if (!RegistrationService::isMPVorOtherNonCommercialBody($vehicle['body'])) {
-                $textQuerriedUComms = RegistrationService::getCarsByTextValuesFromVerisk($vehicle, 'UsedComCarsModel', $range);
+                $textQuerriedUComms = RegistrationService::getCarsByTextValuesFromVerisk($vehicle, 'UsedComCarsModel', $range, $archCom);
             }
 
             if (!empty($textQuerriedUComms)) {
