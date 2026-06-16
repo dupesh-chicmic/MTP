@@ -126,7 +126,11 @@ class RegistrationServiceController extends Controller
         }
         $archcheck = $latestImportId;
         $arch = $latestImportId;
-
+        $archcommcheck = (int) Yii::app()->db->createCommand('select id_import from used_com_cars order by id desc limit 1')->queryScalar();
+        if (empty($archcommcheck)) {
+            $archcommcheck = $archcheck;
+        }
+        
         $_POST['VehicleRegNumber'] = str_replace(' ', '', $_POST['VehicleRegNumber']);
 
         //MW HERE 2017-04
@@ -159,6 +163,7 @@ class RegistrationServiceController extends Controller
         $timeTrack .= 'After LinkedCars (' . ($time_period - $time_start) . ')';
 
         if (!empty($returnedCodeNumber) && RegistrationService::isValidYear($vehicleData)) {
+
             $model = RegistrationService::getCarCommModel("UsedCarsModel", $returnedCodeNumber, $archcheck);
 
             if (empty($model)) {
@@ -167,15 +172,17 @@ class RegistrationServiceController extends Controller
                 $selectedModel = self::$PARAM_USED_COM_CARS_MODEL;
                 // search commercial
                 if (!RegistrationService::isMPVorOtherNonCommercialBody($vehicleData['body'])) {
-                    $model = RegistrationService::getCarCommModel($selectedModel, $returnedCodeNumber, $archcheck);
+                    $model = RegistrationService::getCarCommModel($selectedModel, $returnedCodeNumber, $archcommcheck);
                 }
             } else {
                 // search cars
                 $this->checkLicence($cartype);
             }
 
-            $main_coreWithAssociatedCarsModel = RegistrationService::getMain_AllCoreWithAssociatedCarsModel($selectedModel, $model, $archcheck);
-            $rest_coreWithAssociatedCarsModel = RegistrationService::getRest_AllCoreWithAssociatedCarsModel($selectedModel, $model, $archcheck);
+            $activeArch = ($selectedModel == self::$PARAM_USED_COM_CARS_MODEL) ? $archcommcheck : $archcheck;
+            $arch = $activeArch;
+            $main_coreWithAssociatedCarsModel = RegistrationService::getMain_AllCoreWithAssociatedCarsModel($selectedModel, $model, $activeArch);
+            $rest_coreWithAssociatedCarsModel = RegistrationService::getRest_AllCoreWithAssociatedCarsModel($selectedModel, $model, $activeArch);
             $vehicleKms = array("kmsForYear" => RegistrationService::getFieldValueForYear("kms", $vehicleData['year'], $model));
         }
 
@@ -1689,7 +1696,7 @@ class RegistrationServiceController extends Controller
         echo $out;
         exit;
     }
-    public function getOneCarDetails($regNumber, $getChassis, $user_kms, $riDataOnlyOK = false, $ukRegOk = false, $apiUser = null)
+    public function getOneCarDetails($regNumber, $getChassis, $user_kms, $riDataOnlyOK = false, $ukRegOk = false, $apiUser = null, $arch = null, $archCom = null)
     {
         $vehicleData = array();
         $vehicleData = RegistrationService::getRiDataResults($regNumber, $getChassis);
@@ -1719,7 +1726,7 @@ class RegistrationServiceController extends Controller
         if (!empty($returnedCodeNumber) && RegistrationService::isValidYear($vehicleData)) {
             // najpierw szukamy core jesli core jest pusty to commercial
             
-            $model = RegistrationService::getCarCommModel("UsedCarsModel", $returnedCodeNumber);
+            $model = RegistrationService::getCarCommModel("UsedCarsModel", $returnedCodeNumber, $arch);
             
             $main_coreWithAssociatedCarsModel = array();
             $rest_coreWithAssociatedCarsModel = array();
@@ -1727,17 +1734,17 @@ class RegistrationServiceController extends Controller
                 //if(!$vehicleData['body']=='MPV'){
                 if (!RegistrationService::isMPVorOtherNonCommercialBody($vehicleData['body'])) {
                     // search commercial
-                    $model = RegistrationService::getCarCommModel("UsedComCarsModel", $returnedCodeNumber);
+                    $model = RegistrationService::getCarCommModel("UsedComCarsModel", $returnedCodeNumber, $archCom);
                     /* if ($apiUser->username == 'testuser') {
                         $model = RegistrationService::getTestCarCommModel("UsedComCarsModel", $returnedCodeNumber);
                     } */
-                    $main_coreWithAssociatedCarsModel = RegistrationService::getMain_AllCoreWithAssociatedCarsModel("UsedComCarsModel", $model);
-                    $rest_coreWithAssociatedCarsModel = RegistrationService::getRest_AllCoreWithAssociatedCarsModel("UsedComCarsModel", $model);
+                    $main_coreWithAssociatedCarsModel = RegistrationService::getMain_AllCoreWithAssociatedCarsModel("UsedComCarsModel", $model, $archCom);
+                    $rest_coreWithAssociatedCarsModel = RegistrationService::getRest_AllCoreWithAssociatedCarsModel("UsedComCarsModel", $model, $archCom);
                 }
             } else {
                 // search cars
-                $main_coreWithAssociatedCarsModel = RegistrationService::getMain_AllCoreWithAssociatedCarsModel("UsedCarsModel", $model);
-                $rest_coreWithAssociatedCarsModel = RegistrationService::getRest_AllCoreWithAssociatedCarsModel("UsedCarsModel", $model);
+                $main_coreWithAssociatedCarsModel = RegistrationService::getMain_AllCoreWithAssociatedCarsModel("UsedCarsModel", $model, $arch);
+                $rest_coreWithAssociatedCarsModel = RegistrationService::getRest_AllCoreWithAssociatedCarsModel("UsedCarsModel", $model, $arch);
             }
             $vehicleKms = array("kmsForYear" => RegistrationService::getFieldValueForYear("kms", $vehicleData['year'], $model));
             // jesli $vehicleKms="" to znaczy ze w bazie nie jest uzupelniony rok dla tego samochodu (rok ktory zwraca RI)
@@ -1783,7 +1790,9 @@ class RegistrationServiceController extends Controller
             'grpCustomValeResult' => $grpCustomValeResult,
             'calculatedCustomValue' => $calculatedCustomValue,
             'type' => $selectedModel,
-            'regNumber' => $regNumber
+            'regNumber' => $regNumber,
+            'arch' => $arch,
+            'archCom' => $archCom
         );
 
         $bestMatchedCarReturnDetails = array();
@@ -1823,7 +1832,7 @@ class RegistrationServiceController extends Controller
             $input['fuel'] = $car['fuel'];
             $input['guide'] = $info['value']; // ze znakiem euro
             $input['guideKm'] = $info['kms']; // km z tabeli
-            $input['import'] = $import->id;
+            $input['import'] = $latestImportId;
             $input['codenumber'] = $car['codenumber'];
             $input['carOrCom'] = 'UsedCarsModel';
             $adjustedValueArray = UsedCars::odometerCalculation($input);
@@ -2132,6 +2141,21 @@ class RegistrationServiceController extends Controller
     {
         $userKms = $msg = null;
         $cartype = 'passenger';
+        $latestImport = Import::getLastImportData();
+        if (empty($latestImport) || empty($latestImport->id)) {
+            $out = $this->getApiMessage('ERROR', 'No import data available.', 'No import data available.', array());
+            echo $out;
+            exit;
+        }
+        $latestImportId = (int) $latestImport->id;
+        $latestUsedImportId = (int) Yii::app()->db->createCommand('select id_import from used_cars order by id desc limit 1')->queryScalar();
+        if (empty($latestUsedImportId)) {
+            $latestUsedImportId = $latestImportId;
+        }
+        $latestComImportId = (int) Yii::app()->db->createCommand('select id_import from used_com_cars order by id desc limit 1')->queryScalar();
+        if (empty($latestComImportId)) {
+            $latestComImportId = $latestImportId;
+        }
 
         file_put_contents('./protected/runtime/API_log.log', "\r\n NEW TESTUSER CALL: " . basename($_SERVER['REQUEST_URI']), FILE_APPEND);
         $username = base64_decode($_GET['username']);
@@ -2186,9 +2210,9 @@ class RegistrationServiceController extends Controller
 
         if (!empty($_GET['chassis']) && $_GET['chassis'] == 1) {
             $chassis = self::isChassisClient(base64_decode($_GET['username']));
-            $oneCarResults = $this->getOneCarDetails($regNumber, $chassis, $userKms, true, true, $apiUser);
+            $oneCarResults = $this->getOneCarDetails($regNumber, $chassis, $userKms, true, true, $apiUser, $latestUsedImportId, $latestComImportId);
         } else {
-            $oneCarResults = $this->getOneCarDetails($regNumber, false, $userKms, true, true, $apiUser);
+            $oneCarResults = $this->getOneCarDetails($regNumber, false, $userKms, true, true, $apiUser, $latestUsedImportId, $latestComImportId);
             
         }
 
@@ -2224,6 +2248,7 @@ class RegistrationServiceController extends Controller
         $data['returnKms'] = $returnKms;
         $data['regNumber'] = $regNumber;
         $outVehicle = RegistrationService::getDisplayValues($data, $apiUser);
+        $vehicleData = RegistrationService::getRiDataResults($regNumber);
         
         if (!empty($car)) {
             if (isset($car->id_used_com_cars)) {
@@ -2242,7 +2267,8 @@ class RegistrationServiceController extends Controller
                     $outVehicle['GRP'] = $outVehicle['Kms'] = "";
                 }
             }
-
+            
+            $outVehicle = array_merge(['ri_code' => $vehicleData['code']], $outVehicle);
             $retVehicles[] = $outVehicle;
         } else {
             if (is_numeric($vehicle['year'])) {
@@ -2254,6 +2280,7 @@ class RegistrationServiceController extends Controller
             }
 
             $retVehicles[] = [
+                'ri_code'   =>  $vehicleData['code'], 
                 'mtp_code'  =>  '',
                 'RegNumber'  =>  $vehicle['registerVehicleNumber'],
                 'Make'  =>  $vehicle['make'],
